@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="SEU_PO_REQ" directorySegmentName="seg_0" id="4A05F343-3CC6-1097-1210-BEAE7CAA445A">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>D7961944-7510-412A-E63C-E8FE30586570</importedID>
+</SchemaObject>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09A0818F-11C8-CC51-B225-28AED0065A94" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="AP_VENDOR_SITES">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDOR_SITES</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AVS_VENDOR_ID" id="358BF51A-CDD9-B9EE-9E09-EE34D9830F51">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>AP_VENDOR_SITES</sourceObjSchema>
+<sourceObjName>AVS_VENDOR_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVS_VENDOR_ADDRESS" id="CA1A15CB-8D65-D3A4-39B9-DAA892311D9C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>AP_VENDOR_SITES</sourceObjSchema>
+<sourceObjName>AVS_VENDOR_ADDRESS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVS_VENDOR_TEL" id="E9B130A9-9CBD-8984-70E4-601FF88B442D">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>AP_VENDOR_SITES</sourceObjSchema>
+<sourceObjName>AVS_VENDOR_TEL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A4CCA5B-1D4D-8D6B-48C7-5F43ADD4BAAD" name="AP_VENDOR_SITES_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDOR_SITES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358BF51A-CDD9-B9EE-9E09-EE34D9830F51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9019F673-F378-5D07-F4A1-52E232976AE5" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="AP_VENDOR_SITES_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDOR_SITES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="358BF51A-CDD9-B9EE-9E09-EE34D9830F51"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

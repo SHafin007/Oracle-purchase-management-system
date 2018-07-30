@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="259C66EF-9C5B-5D78-6658-A07BDFB37752" containerWithKeyObject="014B43F6-042C-A17D-2C60-C3AB17B86271" localFKIndex="46C42DFE-77FF-B12F-1E93-33A4EF47B9D0" name="UOM_UOM_CLASS_FK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_FK1</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>2AD58892-1E7C-FEB7-4459-454B5E640EB6</referredTableID>
+<keyObject>C8EBC430-3D41-8CAA-D367-D7B45430361A</keyObject>
+<referredKeyID>C8EBC430-3D41-8CAA-D367-D7B45430361A</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

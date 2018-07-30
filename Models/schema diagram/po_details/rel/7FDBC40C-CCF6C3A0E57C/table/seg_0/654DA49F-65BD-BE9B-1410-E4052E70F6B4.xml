@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="654DA49F-65BD-BE9B-1410-E4052E70F6B4" name="BUILDING">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>EE6FD06E-5D13-D9B7-FEAA-A2746F952A97</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUILDING_ID" id="E62110F1-0260-D8C2-A3FD-A09FE7DAB334">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>FD8E16E6-6841-D3D2-FF41-1D6154CD3983</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUILDING_NAME" id="03F2E11F-1AEE-0514-19A9-60142751066F">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>4FA72F5A-99AB-25AD-9D19-2A14DB81B458</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="337D2195-7EBE-4A15-2016-D9D0197F3AB4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>E1DFFD74-DF0D-ACAD-456A-F65EFEB87313</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="022EB9DF-295C-A175-751D-245E3A057470" name="BUILDING_PK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0717C9A1-A6DB-4B71-857D-E4BBBD970CDF</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E62110F1-0260-D8C2-A3FD-A09FE7DAB334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B992972F-AAF8-C6CF-F88F-EB22293200FE" name="BUILDING_BUILDING_ID_IDX">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>90142EC6-B72F-4DD2-509C-977494DFEEFC</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E62110F1-0260-D8C2-A3FD-A09FE7DAB334"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

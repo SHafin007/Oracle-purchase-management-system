@@ -1,0 +1,176 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC4292CE-2FA3-07A5-CF4C-5C0362559AA4" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="PO_REQUISITION_MST">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>PO_REQUISITION_MST</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRM_REQ_ID" id="96E176A9-EB47-CE9D-603C-862EB36C0E4E">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_REQ_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_DATE" id="ADE7CCC5-54A9-3D02-CAF2-E2BBFCC5FA59">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_REQUIRED_DELIVERY_DATE" id="75DA14EF-5C99-CCF7-F1D5-9509B271314B">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_REQUIRED_DELIVERY_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_DELIVERY_ADDRESS" id="1D78A926-6A96-11D2-C8CE-F6D36546FA1A">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_DELIVERY_ADDRESS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_REQUESTED_BY_ID" id="01781A6B-8FD4-82D0-42EA-F303B756C407">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_REQUESTED_BY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<commentInRDBMS>user_id</commentInRDBMS>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_REQUESTER_PHONE" id="D522A193-1241-DFB1-ABB0-11D6B8AEAE94">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_REQUESTER_PHONE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_PREPARED_BY_ID" id="5D7E85DB-AC97-61DD-41C2-175A6A256093">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_PREPARED_BY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<commentInRDBMS>user_id</commentInRDBMS>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_EMAIL" id="32C54C1E-476E-7F08-65E7-64E1919ACFC2">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_EMAIL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRM_APPROVED_BY_ID" id="67E1404F-8701-2064-E8C6-3FA411153B8A">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_REQUISITION_MST</sourceObjSchema>
+<sourceObjName>PRM_APPROVED_BY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<commentInRDBMS>user_id</commentInRDBMS>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00959057-379A-790A-2356-6596A127C12C" name="PO_REQUISITION_MST_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>PO_REQUISITION_MST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96E176A9-EB47-CE9D-603C-862EB36C0E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF29B345-191E-7396-A9AC-520BC3A58099" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="PO_REQUISITION_MST_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>PO_REQUISITION_MST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96E176A9-EB47-CE9D-603C-862EB36C0E4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

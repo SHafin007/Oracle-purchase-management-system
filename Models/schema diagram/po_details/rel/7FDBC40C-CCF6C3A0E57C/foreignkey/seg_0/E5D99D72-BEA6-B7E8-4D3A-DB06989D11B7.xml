@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E5D99D72-BEA6-B7E8-4D3A-DB06989D11B7" name="PROD_BRAND_SUPPLIER_LIST_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>5A69DBE0-C47E-53EE-8C83-6AF281F8883F</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>BC90DD94-54A4-135B-F428-8E89B8989430</localFKIndex>
+<keyObject>CC59C1AC-2A96-FD9F-9656-9E8EB50215E2</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,5 @@
+login mod global variables:
+==================================
+:GLOBAL.USER_ID := 0;
+:GLOBAL.USER_NAME := '';
+

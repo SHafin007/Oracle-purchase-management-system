@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51BB628D-76EE-319A-AB5D-9FC5790080C1" name="PRODUCT_TYPE">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>PRODUCT_TYPE</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_TYPE_ID" id="B95C4FDA-C4CF-704B-6242-BFA5FC735999">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>PRODUCT_TYPE</sourceObjSchema>
+<sourceObjName>PROD_TYPE_ID</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_TYPE" id="FCA8AF8C-2E10-89B3-06B5-B075A5DFDF0C">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>PRODUCT_TYPE</sourceObjSchema>
+<sourceObjName>PROD_TYPE</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A74F0D09-2B0E-78BB-CB8F-AEAE9B6715D5" name="PRODUCT_TYPE_PK">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>PRODUCT_TYPE_PK</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95C4FDA-C4CF-704B-6242-BFA5FC735999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="140EA91B-9181-8924-1263-20FA71DFE821" name="PRODUCT_TYPE_UK1">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>PRODUCT_TYPE_UK1</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA8AF8C-2E10-89B3-06B5-B075A5DFDF0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A1DB298-EE2A-49FD-13CF-84C5D1CCCB37" name="PRODUCT_TYPE_PK">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>PRODUCT_TYPE_PK</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95C4FDA-C4CF-704B-6242-BFA5FC735999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E205A34D-3911-2786-E49F-4F26CBAC38B7" name="PRODUCT_TYPE_UK1">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>PRODUCT_TYPE_UK1</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FCA8AF8C-2E10-89B3-06B5-B075A5DFDF0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

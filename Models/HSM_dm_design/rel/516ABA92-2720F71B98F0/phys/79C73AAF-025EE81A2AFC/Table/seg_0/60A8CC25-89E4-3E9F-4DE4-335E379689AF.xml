@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PO_PUR_REQ_DTL" directorySegmentName="seg_0" id="60A8CC25-89E4-3E9F-4DE4-335E379689AF">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>24B0D98C-B9C1-E5BD-CE83-5E110181BA06</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PPRD_REQUIRED_BY_DATE" id="0854654C-B2E2-B555-05F5-3F3751F62584">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PPRD_PUR_REQ_ID" id="6FBF0CF8-4447-5BD1-0222-F75CBB2294C4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PPRD_QTY" id="C5885446-7A59-813A-E55E-025340201772">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PPRD_PROD_ID" id="FC498BDA-C1B5-4918-DF6A-569B666586A3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PPRD_REMARKS" id="FCA96817-1263-D630-0B1F-377FA6D6B4F7">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+</TableProxyOraclev12c>

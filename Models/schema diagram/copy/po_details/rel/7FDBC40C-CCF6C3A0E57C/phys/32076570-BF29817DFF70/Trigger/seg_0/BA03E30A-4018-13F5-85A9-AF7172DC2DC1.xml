@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BANK_ACCOUNT_TRG" directorySegmentName="seg_0" id="BA03E30A-4018-13F5-85A9-AF7172DC2DC1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNT_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.BANK_ACCT_ID IS NULL THEN&lt;br/&gt;      SELECT BANK_ACCOUNT_SEQ.NEXTVAL INTO :NEW.BANK_ACCT_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>8C5DD969-D077-4D3D-4831-CCB49703A4C4</table>
+</TriggerOraclev10g>

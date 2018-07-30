@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="ROLE_TRG" directorySegmentName="seg_0" id="A7DA8EB3-AE38-4BB4-107C-8519C0BAF45F">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.ROLE_ID IS NULL THEN&lt;br/&gt;      SELECT ROLE_SEQ.NEXTVAL INTO :NEW.ROLE_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>CA50F2EA-74AD-5F20-E66C-49881FFB6BF4</table>
+</TriggerOraclev10g>

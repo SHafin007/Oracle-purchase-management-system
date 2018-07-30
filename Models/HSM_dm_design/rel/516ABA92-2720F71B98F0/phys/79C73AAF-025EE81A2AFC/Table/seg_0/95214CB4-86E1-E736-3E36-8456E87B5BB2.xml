@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FND_RESPONSIBILITY" directorySegmentName="seg_0" id="95214CB4-86E1-E736-3E36-8456E87B5BB2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>24B0D98C-B9C1-E5BD-CE83-5E110181BA06</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FR_RESPONSIBILITY" id="6A36ECB8-4700-B2CD-5DA6-3F53B17F4690">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FR_RESP_ID" id="920079F6-B2F4-6B2D-3D22-4B0E47E6A224">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FND_RESPONSIBILITY_PK" id="AEF26323-DD0B-B83F-A4D6-D301444479CD">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FND_RESPONSIBILITY_PK" id="162D1F8C-BEDE-CC28-7AD5-6EF98A4FF96F">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<existingIndex>AEF26323-DD0B-B83F-A4D6-D301444479CD</existingIndex>
+<indexSegment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

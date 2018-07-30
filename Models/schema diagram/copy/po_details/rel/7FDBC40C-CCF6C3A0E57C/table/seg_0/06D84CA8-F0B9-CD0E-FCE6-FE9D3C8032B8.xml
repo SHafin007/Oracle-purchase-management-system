@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06D84CA8-F0B9-CD0E-FCE6-FE9D3C8032B8" name="CURRENCY">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>CURRENCY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CURRENCY_ID" id="748F5092-2B4C-A85C-6512-AA6B28940C84">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>CURRENCY</sourceObjSchema>
+<sourceObjName>CURRENCY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_NAME" id="A95AC9F7-953B-2852-B380-9BB374A06B7A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>CURRENCY</sourceObjSchema>
+<sourceObjName>CURRENCY_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:13:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>BDD64F8E-D8AB-4677-2E78-ED39F7678A64</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ABREVIATION" id="B843E752-CCA9-931F-ECA8-ACA1D9433A01">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>CURRENCY</sourceObjSchema>
+<sourceObjName>ABREVIATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2FB77B96-B47C-85C2-2919-3FFC15BF8769" name="CURRENCY_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>CURRENCY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="748F5092-2B4C-A85C-6512-AA6B28940C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7720079-56E4-9DCB-1BE3-C6DB0F9E9D7F" name="CURRENCY_CURRENCY_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>CURRENCY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="748F5092-2B4C-A85C-6512-AA6B28940C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

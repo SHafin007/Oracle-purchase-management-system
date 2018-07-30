@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="852D3F17-8B1A-97A8-E1EE-46AB2CE14552" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_PRODUCTS">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_PRODUCTS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OP_PROD_ID" id="27151D24-2393-4803-6865-28A560A2F5B1">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_NAME" id="C09B197E-E4FB-B55A-D4CB-2B039B94B44C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_DESC" id="A348634B-E106-7756-806F-AF1CAA2B8D2F">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_DESC</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_UNIT_PRICE" id="C85F8960-F767-868D-087B-8958AE433B5B">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_UNIT_PRICE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_STATUS_ID" id="F2796989-24A6-521C-49DC-6342163C4986">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_STATUS_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_QTY_ON_HAND" id="978D747D-D229-1F71-6A9A-7684CFA85FE0">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_QTY_ON_HAND</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_TYPE_ID" id="141C47ED-1A0F-0F3D-3070-95C27409B0F6">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_TYPE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_UNIT_ID" id="8B802689-5033-C474-7A71-4E2BD0C8EBFA">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_UNIT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_DIE_NO" id="61DD13BF-A63E-03B7-4103-91105FD94F59">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_DIE_NO</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_UNIT_LENGTH" id="E0FB3604-E90A-9B5F-077E-6E63154A0EBB">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_UNIT_LENGTH</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_BUY_UNIT_PRICE" id="54441FD5-D643-ED49-DB8F-793746D5144F">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_BUY_UNIT_PRICE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OP_PROD_RE_ORDER_LEVEL" id="5EC26AD0-0477-17DF-932A-F323DF13F3FE">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_PRODUCTS</sourceObjSchema>
+<sourceObjName>OP_PROD_RE_ORDER_LEVEL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="979B43C1-C930-6EF5-63FF-B15ADE1189D3" name="ONT_PRODUCTS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_PRODUCTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27151D24-2393-4803-6865-28A560A2F5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35421D1A-B078-ACA4-DC26-6782F1C373D3" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_PRODUCTS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_PRODUCTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27151D24-2393-4803-6865-28A560A2F5B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

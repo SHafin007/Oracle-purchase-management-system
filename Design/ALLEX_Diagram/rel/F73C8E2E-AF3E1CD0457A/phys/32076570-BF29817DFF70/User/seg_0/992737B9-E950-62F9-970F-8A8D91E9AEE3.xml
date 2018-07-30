@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="ALLEX" directorySegmentName="seg_0" id="992737B9-E950-62F9-970F-8A8D91E9AEE3">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjName>ALLEX</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<privilegesWithAdminOption>UNLIMITED TABLESPACE</privilegesWithAdminOption>
+</UserOraclev10g>

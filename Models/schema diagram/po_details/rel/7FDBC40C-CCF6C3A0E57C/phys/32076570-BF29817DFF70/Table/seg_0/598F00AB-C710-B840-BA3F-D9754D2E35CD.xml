@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_ITEMS" directorySegmentName="seg_0" id="598F00AB-C710-B840-BA3F-D9754D2E35CD">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDER_ITEMS_ORDER_ITEM_ID_IDX" id="05242963-EFF3-F42A-4D4F-5BF8A2C40203">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDER_ITEMS_UK1" id="97DD4D91-33B1-F95B-A0DB-4F520C8287CD">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-10 16:07:15 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<segment>75E79CF8-1076-B292-476B-A6DCCC44B533</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRODUCTS_PROD_LIST_ID" id="0B97E590-ACA2-3FFF-D97B-AC7DE89E49C3">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ITEM_LINE_TYPE_ID" id="1AC0AE24-79F7-A3AE-99D4-00DB6453C1FA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PROMISED_DATE" id="26D49773-7F16-225F-6E80-6A186EA8360C">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NEED_BY_DATE" id="493CD5C6-6E49-11AF-D6AD-D24982D1DD1A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTE_TO_SUPPLIERS" id="A13A4515-6A56-F6FC-70BF-9E005164FBE0">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="A27C91A2-CB65-E3E6-38E5-D7A5223CFDB3">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_LIST_ORDER_LIST_ID" id="AE5C2C08-2628-32C0-75C1-31494B04063D">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTIONS" id="C0801DDB-12E3-A91C-F2B5-65460B914EF8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="D2B4956D-9D0B-E27D-C1A6-48B537E6DAFD">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ITEM_ID" id="D7D95ED4-C871-88E4-02FA-62FABC38905D">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UOM_UOM_ID" id="E40C08D8-234E-4355-C102-14A20BCBFE7D">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQ_ITEM_ID" id="F3577493-2AC3-F48D-3CDD-65D4A4143949">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_ORDER_LIST_FK" id="67EE09A3-E5EE-91A9-DB2B-71320653EE47">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_FK1" id="721118EC-0B67-4322-0F70-AE0DB479C540">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_UOM_FK" id="81012F34-426D-7DBC-90B7-8621E0B939E8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_ITEMS_PRODUCTS_FK" id="FA1A71FC-1FA6-E6EE-6CDA-98A4DEDE0798">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_ITEMS_PK" id="18928908-FE9F-76C4-D304-C2E45738A938">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ORDER_ITEMS_UK1" id="F04CB8C1-8AE0-20B7-9808-6365D43F0484">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

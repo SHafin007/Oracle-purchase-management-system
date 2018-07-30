@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="BUGET_ITEMS_TRG" directorySegmentName="seg_0" id="E18F45A1-E93D-FC9C-5024-F43718E8FC94">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BUGET_ITEMS_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.BUDGET_ITEM_ID IS NULL THEN&lt;br/&gt;      SELECT BUGET_ITEMS_SEQ.NEXTVAL INTO :NEW.BUDGET_ITEM_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>0033B3D6-7DA6-2FF7-A9FE-BE2B4FF14499</table>
+</TriggerOraclev10g>

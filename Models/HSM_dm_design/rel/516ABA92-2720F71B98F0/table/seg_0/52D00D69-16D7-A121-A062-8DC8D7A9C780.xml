@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52D00D69-16D7-A121-A062-8DC8D7A9C780" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="OB_PROD_BRAND">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>OB_PROD_BRAND</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OPB_PROD_ID" id="5D87EEFE-B286-8FC6-9484-18A8DC825003">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>OB_PROD_BRAND</sourceObjSchema>
+<sourceObjName>OPB_PROD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPB_BRAND_ID" id="156AA56C-FD74-A9D7-F38F-882464BCF116">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>OB_PROD_BRAND</sourceObjSchema>
+<sourceObjName>OPB_BRAND_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPB_VENDOR_ID" id="0E162A41-EAF9-D885-8FF1-1B8583F6D2B6">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>OB_PROD_BRAND</sourceObjSchema>
+<sourceObjName>OPB_VENDOR_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFA0898D-7269-3AA7-09C3-D60106ACF9CB" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_MARITIAL_STATUS">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_MARITIAL_STATUS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HMS_MAR_STAT_ID" id="91F2727D-7626-D478-B752-FDC27D3FCB45">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_MARITIAL_STATUS</sourceObjSchema>
+<sourceObjName>HMS_MAR_STAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HMS_MARRITIAL_STATUS" id="F705B473-9197-803A-38A5-75C7C872E68B">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_MARITIAL_STATUS</sourceObjSchema>
+<sourceObjName>HMS_MARRITIAL_STATUS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF431EA7-16F0-9D35-C682-9DB520847E5D" name="HR_MARITIAL_STATUS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_MARITIAL_STATUS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F2727D-7626-D478-B752-FDC27D3FCB45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C7C68FE-31DA-C052-3A71-923CF9D5CCBD" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_MARITIAL_STATUS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_MARITIAL_STATUS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F2727D-7626-D478-B752-FDC27D3FCB45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

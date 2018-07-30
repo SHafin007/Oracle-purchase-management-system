@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="NOTIFICATION_TRG" directorySegmentName="seg_0" id="CE0E0B27-E302-B6D2-40F0-D3722AC68754">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>NOTIFICATION_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.NOTIFICATION_ID IS NULL THEN&lt;br/&gt;      SELECT NOTIFICATION_SEQ.NEXTVAL INTO :NEW.NOTIFICATION_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;&lt;br/&gt;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>D47DFA30-380C-C2EC-3081-661C1362E94F</table>
+</TriggerOraclev10g>

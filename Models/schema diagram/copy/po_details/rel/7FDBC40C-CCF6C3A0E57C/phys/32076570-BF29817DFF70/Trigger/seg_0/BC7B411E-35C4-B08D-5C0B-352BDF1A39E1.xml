@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SUPPLIER_SITE_PROD_PRICE_TRG" directorySegmentName="seg_0" id="BC7B411E-35C4-B08D-5C0B-352BDF1A39E1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SUPPLIER_SITE_PROD_PRICE_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    NULL;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>B8E01061-9959-3015-5013-011DEFD40E7B</table>
+</TriggerOraclev10g>

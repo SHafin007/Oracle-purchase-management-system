@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63C770F3-9169-ED7A-57DB-3CD9176ED6BB" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="DESIGNATION">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>DESIGNATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DESIGNATION_ID" id="8BB8BA37-1FFF-FD5D-64F4-E8A70E373C56">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>DESIGNATION</sourceObjSchema>
+<sourceObjName>DESIGNATION_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEIGNATION" id="FDE16068-642D-B484-A071-15D7A1B7B701">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>DESIGNATION</sourceObjSchema>
+<sourceObjName>DEIGNATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C3B2DCC-C8CD-F47B-E188-84D808FA68E7" name="DESIGNATION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>DESIGNATION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB8BA37-1FFF-FD5D-64F4-E8A70E373C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9177A32-A6A9-4B97-7C70-701781A60D08" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="DESIGNATION_DESIGNATION_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>DESIGNATION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BB8BA37-1FFF-FD5D-64F4-E8A70E373C56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

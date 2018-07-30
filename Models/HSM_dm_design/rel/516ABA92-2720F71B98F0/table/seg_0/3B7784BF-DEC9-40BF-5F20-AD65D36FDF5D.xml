@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B7784BF-DEC9-40BF-5F20-AD65D36FDF5D" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="FND_USER_RESPONSIBILITY">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>FND_USER_RESPONSIBILITY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUR_USER_ID" id="50AE1B7F-E117-48FA-5B99-50718F6E9D9A">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>FND_USER_RESPONSIBILITY</sourceObjSchema>
+<sourceObjName>FUR_USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUR_RESP_ID" id="7F0536D1-E766-79A9-C1BF-FC099F53AFDA">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>FND_USER_RESPONSIBILITY</sourceObjSchema>
+<sourceObjName>FUR_RESP_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUR_EFFECTIVE_DATE_START" id="E83C5537-4148-71FB-CBE8-7B4767BDBBCE">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>FND_USER_RESPONSIBILITY</sourceObjSchema>
+<sourceObjName>FUR_EFFECTIVE_DATE_START</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUR_EFFECTIVE_DATE_END" id="06E62214-F90A-2655-3F31-4AD27CFBEC09">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>FND_USER_RESPONSIBILITY</sourceObjSchema>
+<sourceObjName>FUR_EFFECTIVE_DATE_END</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ROLE" directorySegmentName="seg_0" id="CA50F2EA-74AD-5F20-E66C-49881FFB6BF4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ROLE_ROLE_ID_IDX" id="DB1CCDCC-E433-1CCA-23F8-DFF33CC795B5">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ROLE_ID" id="50426233-5DF9-640A-3BF1-47B035254C07">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_ID" id="539FB408-A8A7-4B21-696E-5EC3D705B428">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROLE_CAT_ID" id="ABBE7148-6596-58BE-1035-5202ACFDF00E">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-18 05:44:10 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROLE_DESC" id="D8B5599B-F441-F438-3554-5F123FCEA3AC">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROLE" id="F835A609-207A-CA04-CA64-0648024ACF7A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROLE_FK2" id="384DBFE5-CFB1-0D4C-5ED5-5D4E313E567F">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:48:11 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ROLE_FK1" id="81CF8388-9DC8-CEC8-68C7-7080283B85C7">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ROLE_PK" id="4962D3CE-7484-777D-5654-7FBB0CBD3DCA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

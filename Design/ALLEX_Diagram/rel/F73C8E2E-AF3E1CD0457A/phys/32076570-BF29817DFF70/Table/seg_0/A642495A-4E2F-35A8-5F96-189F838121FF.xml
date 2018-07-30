@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="SUPPLIERS" directorySegmentName="seg_0" id="A642495A-4E2F-35A8-5F96-189F838121FF">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>CF19BEF4-8C47-D578-B60F-034EF2DD16CD</segment>
+<tableSpace>641D8EE7-B3C8-5902-2435-71AF9A4729B7</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="SUPPLIERS_PK" id="8B6A28C8-0540-B169-087A-069901E3BB4E">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<segment>4D595B3E-FF4E-7F1C-85C3-FECEE4537F50</segment>
+<tableSpace>641D8EE7-B3C8-5902-2435-71AF9A4729B7</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUPP_EMAIL" id="4C030DDF-1EEB-B2FC-CC86-9A70D1A42337">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_PHONE" id="50D8BF24-D4DC-9FB4-6188-9E87D0C831FD">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_ADDR" id="56C350F8-B013-CC4C-2C1E-0CBD29C5E3A8">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_WEB" id="784973B3-E35E-D8C2-F5E5-53347ABE8588">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_NAME" id="7A5ECB57-22E5-05E5-87D6-342652FA3A1A">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_ID" id="E64A6AB9-1F66-F16C-23D8-826CE46B63F5">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SUPPLIERS_PK" id="E6E82C0D-63A5-F9AD-5C3A-A633E71F9215">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<segment>4D595B3E-FF4E-7F1C-85C3-FECEE4537F50</segment>
+<tableSpace>641D8EE7-B3C8-5902-2435-71AF9A4729B7</tableSpace>
+<existingIndex>8B6A28C8-0540-B169-087A-069901E3BB4E</existingIndex>
+<indexSegment>4D595B3E-FF4E-7F1C-85C3-FECEE4537F50</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,234 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47D55716-575F-F9E8-DA88-15170ACF6DB7" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="ORDER_DISTRIBUTION">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_DISTRIBUTION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_DIST_ID" id="FE6310A8-0AAB-9DF9-5D38-8F2C8692CD77">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>ORDER_DIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_LIST_ORDER_LIST_ID" id="3A7B3E89-A0F8-2B22-0451-B68421E74BFC">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>ORDER_LIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7BBA59E-7D40-9F6E-6B16-12456C63F360" referredColumn="657A8100-BC34-E93C-2644-4F99CFE43C49"/>
+</associations>
+</Column>
+<Column name="ORDER_SHIP_SCHEDULE_ID" id="734C3473-F41E-A134-40FA-A951093047C1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>ORDER_SHIP_SCHEDULE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4414D30-7567-412F-F502-225734A60A7C" referredColumn="65224206-EA36-F374-4BE8-932A9F167031"/>
+</associations>
+</Column>
+<Column name="USER_INFO_USER_ID" id="9FD03B3D-8D1D-D6A6-7651-2E2EF7DBEB7C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>REQUESTOR_USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C354AE9-DA6F-C184-76C9-E71814CBEDF7" referredColumn="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</associations>
+</Column>
+<Column name="DELIVERY_TO_LOC" id="A7A3A61B-79C9-361E-5B67-DD8D2EF6356B">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>DELIVERY_TO_LOC</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="DB5A4BC6-C901-AED8-5F3B-43C54CA64682">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK_ACCOUNT_BANK_ACCT_ID" id="55DE2F6F-90BA-6F8D-B08A-2C010FBBED96">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>CHARGE_ACCT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D44B745A-21D1-CEDC-2DE4-A09FB17CA7CD" referredColumn="EDA67D0E-DE68-5352-99E3-04ADF85F329D"/>
+</associations>
+</Column>
+<Column name="CHARGE_AMNT" id="27AC2276-CD6C-F9AD-31EE-992EC305C23C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>CHARGE_AMNT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOM_UOM_ID" id="A01C1A9C-DE00-7E9B-C820-AC269E0112D9">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>UOM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E4594D5F-2A10-1972-9039-0AFE66DB8674" referredColumn="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16139D82-CA25-1EE3-BC8D-17E1FD6EE098" name="ORDER_DISTRIBUTION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_DISTRIBUTION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6310A8-0AAB-9DF9-5D38-8F2C8692CD77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D86727E9-18A0-0E83-0C8E-4B3DA0159FBD" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="ORDER_DISTRIBUTION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_DISTRIBUTION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE6310A8-0AAB-9DF9-5D38-8F2C8692CD77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F754B899-C39B-1F3D-A5CD-C3D9232C27BC" name="ORDER_DISTRIBUTION_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A7B3E89-A0F8-2B22-0451-B68421E74BFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8CC19F8-EA62-D29E-28D7-44B48B841715" name="ORDER_DISTRIBUTION_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="734C3473-F41E-A134-40FA-A951093047C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82EF923B-243A-C23C-71B6-E142B461A192" name="ORDER_DISTRIBUTION_FK3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FD03B3D-8D1D-D6A6-7651-2E2EF7DBEB7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2104FAB-2359-076D-7C00-D3ACA0887EC5" name="ORDER_DISTRIBUTION_FK4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55DE2F6F-90BA-6F8D-B08A-2C010FBBED96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1432284-77EF-1257-2D7F-5A8F8571C210" name="ORDER_DISTRIBUTION_UOM_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A01C1A9C-DE00-7E9B-C820-AC269E0112D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

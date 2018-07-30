@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REQUISITION_LIST" directorySegmentName="seg_0" id="A108B38E-E5D1-8E75-DEE0-4FEA4EA87A9C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PO_REQUISITION_MST_PK" id="7E9F0E9B-2C1A-AF3B-AC22-CEC3493033A1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<segment>75E79CF8-1076-B292-476B-A6DCCC44B533</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REQ_LIST_ID" id="35218DB8-6D00-1597-D67E-BCACBE7573AF">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENCY_CURRENCY_ID" id="80615BCD-2BAE-FF1A-BD48-0A31646209E3">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_UPDATED_TIME" id="87544BFC-29F5-DA35-10B7-29D4D9C6C4FD">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTION" id="9DC448A9-AC1C-1AA6-70A4-82A024DBE6D0">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_INFO_USER_ID" id="B968D105-930D-3B50-A3CA-A9B678171520">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQ_TYPE_ID" id="C55E1500-E18E-5DA4-25EF-9F98AAF984F2">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQ_STATUS_ID" id="D2674E39-1585-3554-7B9A-CFBEA3212309">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_LIST_USER_INFO_FK" id="815324CE-8450-D17E-5DCD-16A643B3DC07">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_LIST_CURRENCY_FK" id="91B422DF-0E26-E5F9-21E5-E866A2384BF8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REQUISITION_LIST_PK" id="CF37485F-8036-FE5B-C1E6-051D1DBBBAA1">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:42:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

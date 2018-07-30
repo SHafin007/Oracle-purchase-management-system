@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8828CA76-1AC5-ABD6-7869-C5D345DDCF26" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="AP_VENDORS">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDORS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="AV_VENDOR_ID" id="D84B8009-AA3D-910D-760A-6723CEFB549A">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>AP_VENDORS</sourceObjSchema>
+<sourceObjName>AV_VENDOR_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AV_VENDOR_NAME" id="D5D7134D-2E79-FEFB-5EBC-75F636FB9C59">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>AP_VENDORS</sourceObjSchema>
+<sourceObjName>AV_VENDOR_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87B1739E-E52C-216B-883C-1C9D44904523" name="AP_VENDORS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDORS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84B8009-AA3D-910D-760A-6723CEFB549A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF445FF7-CE8C-A371-C206-7DCBB15D31B9" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="AP_VENDORS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>AP_VENDORS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D84B8009-AA3D-910D-760A-6723CEFB549A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

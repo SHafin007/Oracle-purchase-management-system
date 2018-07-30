@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7F35980-DCDA-209A-56E3-084E14EBF14B" name="ROLE_CATEGORY">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_CATEGORY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A23E42FD-6CE4-6EC4-7F14-B612581933E2</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROLE_CAT_ID" id="17C78156-1BD9-9FD7-A86E-E6AC0DB26AC5">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE_CATEGORY</sourceObjSchema>
+<sourceObjName>ROLE_CAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>DE166AAE-3576-CF63-F30B-A672D1AFF83E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE_CATEGORY" id="5FEE618B-615D-38F9-250D-36979E1F8AC6">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE_CATEGORY</sourceObjSchema>
+<sourceObjName>ROLE_CATEGORY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>E97BCE92-8B06-EE50-E1F9-4512D55A80D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1F7BA24-1DBF-627C-DF5F-06731B4DE76B" name="ROLE_CATEGORY_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_CATEGORY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>71FCA5ED-C507-D93F-59D9-76550E587CB8</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C78156-1BD9-9FD7-A86E-E6AC0DB26AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D306A768-061C-28BF-7876-45CAC5F28BDD" name="ROLE_CATEGORY_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_CATEGORY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>3B55AD02-3191-1090-A7C8-B0BC1640D617</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17C78156-1BD9-9FD7-A86E-E6AC0DB26AC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,28 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="C44CA002-3752-BCF4-3B92-06FDCB91FA28">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<fileType>SMALLFILE</fileType>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="USERS01.DBF" id="31EEB70A-BE09-822D-47F9-B01976E89571">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjName>C:\APP\SAIFUR\ORADATA\ORCL\USERS01.DBF</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-12 12:44:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>C:\APP\SAIFUR\ORADATA\ORCL\USERS01.DBF</fileName>
+<nextBlockSize>1280</nextBlockSize>
+<size>14080</size>
+</DataFile>
+</dataFiles>
+</TableSpaceOraclev10g>

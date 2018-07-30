@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="06EBBA11-20DA-F279-D2CD-92DA3C357FA5" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="SUPPLIER_SITES">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SUPPLIER_SITES</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPP_SITE_ID" id="6440B962-9CD2-209E-954F-E2924F570DEF">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_SITE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPP_SITE_ADDRESS" id="9D40294E-E18D-C572-7003-2A323EA2C832">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_SITE_ADDRESS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPP_SITE_PHONE" id="5A71FF50-FA32-70BC-2086-26300B9ADBB0">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_SITE_PHONE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPP_SITE_NAME" id="7F3F1801-1878-353E-B619-1C8184D613CA">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_SITE_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPP_SITE_AGENT_NAME" id="79A72589-BD54-F62B-7798-B7D305069399">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_SITE_AGENT_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUPPLIER_LIST_SUPP_ID" id="A27CAC8E-7B4F-72AF-795D-7C17F3FFEB34">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPPLIER_SITES</sourceObjSchema>
+<sourceObjName>SUPP_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 13:35:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0D5931E5-BB82-6724-EE88-4180B78AF82E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF750734-5B49-C355-945A-DF955E7FCB35" referredColumn="8F068BE2-9775-D643-274B-CD75A957D8A7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B32477E-1827-F65C-877D-E299F37E6DCF" name="SUPPLIER_SITES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>AP_VENDOR_SITES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6440B962-9CD2-209E-954F-E2924F570DEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24631454-845A-200E-358F-726994CD2FB2" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="AP_VENDOR_SITES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>AP_VENDOR_SITES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6440B962-9CD2-209E-954F-E2924F570DEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2D13D224-2D9A-3269-A1E6-033DB26BA386" name="SUPPLIER_SITES_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 13:35:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A27CAC8E-7B4F-72AF-795D-7C17F3FFEB34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

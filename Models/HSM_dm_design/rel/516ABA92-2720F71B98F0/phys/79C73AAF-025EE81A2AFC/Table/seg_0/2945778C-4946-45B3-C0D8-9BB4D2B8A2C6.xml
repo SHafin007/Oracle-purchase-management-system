@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HR_RELIGION" directorySegmentName="seg_0" id="2945778C-4946-45B3-C0D8-9BB4D2B8A2C6">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>24B0D98C-B9C1-E5BD-CE83-5E110181BA06</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HR_RELIGION_ID" id="33841DB0-EDB9-D839-6335-3456DF1FC051">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HR_RELIGION" id="930F4214-5FC3-5294-97DA-8730E5CE2124">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HR_RELIGION_PK" id="1E446B02-6657-5FA8-4081-C539D7CF5DB1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HR_RELIGION_PK" id="7AAEC280-7CD2-1D04-980B-2184695099B8">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<existingIndex>1E446B02-6657-5FA8-4081-C539D7CF5DB1</existingIndex>
+<indexSegment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

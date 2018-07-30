@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="EMPLOYEES_TRG" directorySegmentName="seg_0" id="FF7A1ECF-98A5-12A3-5E62-CFBC74B9D4FE">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>EMPLOYEES_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.EMP_ID IS NULL THEN&lt;br/&gt;      SELECT EMPLOYEES_SEQ.NEXTVAL INTO :NEW.EMP_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>01D60019-48C0-23CA-5199-4EE9A5BA869D</table>
+</TriggerOraclev10g>

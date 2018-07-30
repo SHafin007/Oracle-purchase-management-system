@@ -1,0 +1,307 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="141B34C1-5E2C-D831-D7AF-3B02F5F5B221" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_PERSON">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_PERSON</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HP_PERSON_ID" id="F999F38A-A14E-B258-31C0-7324205D9C30">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_PERSON_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_LAST_NAME" id="1910259F-B3FF-B964-FA7E-487A0A2C1844">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_LAST_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_FIRST_NAME" id="9114FD5F-FC4F-935D-0090-1C675490D78C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_FIRST_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_FATHERS_NAME" id="5818BAD1-FCC9-F58A-0F8E-41E6710D9417">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_FATHERS_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_MOTHERS_NAME" id="AD488B65-5B41-DCEA-713E-9F3BC1565B82">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_MOTHERS_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_MOBILE" id="0BB3E0C0-A54A-EEA7-10B4-41094E243A79">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_MOBILE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_HOME_MOBILE" id="3874079D-02DE-CB33-5643-04BB9A06421F">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_HOME_MOBILE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_EMAIL" id="CED98A6E-00B2-BDBF-0ECE-51E21FB3ECE2">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_EMAIL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_DOB" id="5993EB86-3EF3-CDF3-3801-197EB250B75C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_DOB</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_NID" id="76964879-C0AC-423C-A72E-03D460258123">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_NID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_NATIONALITY_ID" id="CA7F14CA-A75A-0228-EB7B-2154E88D4269">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_NATIONALITY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_GENDER_ID" id="B9597045-54E4-DB8E-A2E9-5D80EECC05DE">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_GENDER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_RELEGION_ID" id="2E995249-6E05-A370-3E79-96AA717C63B2">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_RELEGION_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_MARITIAL_STAT_ID" id="B91C486E-9BBC-E636-2751-23299FE20A3C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_MARITIAL_STAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_BLOOD_ID" id="9C01AF53-A6A9-3781-FB13-5E9C5D46FE90">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_BLOOD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_FATHERS_OCCUPATION" id="44BB3F7F-C17D-A915-0A9D-11BFA9FCCC38">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_FATHERS_OCCUPATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_MOTHERS_OCCUPATION" id="849BC381-80D9-7BBF-1132-CAD48947061E">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_MOTHERS_OCCUPATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HP_ADDRESS" id="98F6A680-C7B8-C95F-BA94-B7D228A25927">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_PERSON</sourceObjSchema>
+<sourceObjName>HP_ADDRESS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CA49F217-3F8B-3339-96FA-238CE1C29C12" name="HR_PERSON_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_PERSON_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F999F38A-A14E-B258-31C0-7324205D9C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F9663EC-9EA2-A6A7-EFB4-994ECBDEAD78" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_PERSON_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_PERSON_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F999F38A-A14E-B258-31C0-7324205D9C30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

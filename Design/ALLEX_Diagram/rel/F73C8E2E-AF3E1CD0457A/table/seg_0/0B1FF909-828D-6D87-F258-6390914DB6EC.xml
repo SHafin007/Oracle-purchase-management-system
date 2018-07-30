@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B1FF909-828D-6D87-F258-6390914DB6EC" name="COMPANY">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>COMPANY</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COMP_ID" id="65449718-602A-F80D-369E-190D063B0ABC">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_ID</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_NAME" id="975F7C5B-1321-49B0-BE5F-0FE95A86F632">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_NAME</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_PHONE" id="F30665F2-54ED-E5AB-979F-CA9938FE9057">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_PHONE</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_ADDR" id="4B7A9526-6854-499D-5591-1774E21A3063">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_ADDR</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_WEB" id="FF8DDEBF-81FF-D327-E93F-D20FC2C73632">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_WEB</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMP_MAIL" id="A4D9635B-2EA7-08D4-55B1-2681D743BB29">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>COMPANY</sourceObjSchema>
+<sourceObjName>COMP_MAIL</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E44D2B52-CD02-7CF5-FC8E-98AB3F9FF926" name="COMPANY_PK">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>COMPANY_PK</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65449718-602A-F80D-369E-190D063B0ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F28CFF55-C893-CB1F-6291-08CA42C669D7" name="COMPANY_PK">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>COMPANY_PK</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65449718-602A-F80D-369E-190D063B0ABC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="RESEARCH_INV" directorySegmentName="seg_0" id="E2E2DB1D-CAB0-5F8A-F179-8B288C86814C">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjName>RESEARCH_INV</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:22 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+</UserOraclev10g>

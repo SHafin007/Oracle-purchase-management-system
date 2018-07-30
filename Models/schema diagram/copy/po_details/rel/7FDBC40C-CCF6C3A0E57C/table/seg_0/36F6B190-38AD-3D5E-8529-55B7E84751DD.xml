@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36F6B190-38AD-3D5E-8529-55B7E84751DD" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="PRODUCT_CATEGORY_SET">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PRODUCT_CATEGORY_SET</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_CAT_SET_ID" id="4BD9B97A-D5F5-23BE-A00B-A8AE9A27AB25">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCT_CATEGORY_SET</sourceObjSchema>
+<sourceObjName>PROD_CAT_SET_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_CAT_SET" id="B9A0BA20-3B62-992A-AABC-485C12BB9A73">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCT_CATEGORY_SET</sourceObjSchema>
+<sourceObjName>PROD_CAT_SET</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="231825A8-43D5-A8BA-A541-29AD99ADDD1E" name="PRODUCT_CATEGORY_SET_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PRODUCT_CATEGORY_SET_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD9B97A-D5F5-23BE-A00B-A8AE9A27AB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="553E507E-47E4-BCFE-500E-F3AEF83A30FD" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="PRODUCT_CATEGORY_SET_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PRODUCT_CATEGORY_SET_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BD9B97A-D5F5-23BE-A00B-A8AE9A27AB25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

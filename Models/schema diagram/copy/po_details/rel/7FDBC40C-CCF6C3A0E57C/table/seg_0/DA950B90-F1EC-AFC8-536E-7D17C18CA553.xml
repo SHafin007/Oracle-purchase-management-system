@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA950B90-F1EC-AFC8-536E-7D17C18CA553" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="BUDGET_LIST">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BUDGET_LIST</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BUDGET_LIST_ID" id="85943D0D-48CF-E290-67A7-2ACFB6EC7699">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BUDGET_LIST</sourceObjSchema>
+<sourceObjName>BUDGET_LIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPTION" id="ECB1C875-CECD-1B5C-4A08-6A340128ED3B">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BUDGET_LIST</sourceObjSchema>
+<sourceObjName>DESCRIPTION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PER_YEAR_ALLOTMENT" id="0779E699-4BE7-612B-CAFA-61AF50D22D6F">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BUDGET_LIST</sourceObjSchema>
+<sourceObjName>PER_YEAR_ALLOTMENT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUDGET_REMAINING" id="5A2DCEA1-4D6F-A19C-57FB-DCCF3899CB44">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BUDGET_LIST</sourceObjSchema>
+<sourceObjName>BUDGET_REMAINING</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="596FCFB0-0686-71BA-5CD2-76AC190B4665" name="BUDGET_LIST_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BUDGET_LIST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85943D0D-48CF-E290-67A7-2ACFB6EC7699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E54CC48E-5E09-3B48-B214-336F279012BD" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="BUDGET_LIST_BUDGET_LIST_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BUDGET_LIST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85943D0D-48CF-E290-67A7-2ACFB6EC7699"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EB64ECC-003C-7063-400E-FD7D5F571E4C" name="USER_ROLE">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ROLE_ID" id="ACFA5ECE-C475-157E-262A-13F515DE0898">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>ACFA5ECE-C475-157E-262A-13F515DE0898</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_INFO_USER_ID" id="68A7470F-73A3-3E87-1309-C8D4165AF0B0">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3E8A3690-900A-2CA4-17BE-A224ADF58DD9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2D67727D-44D3-D361-05FC-6EF2114992F2" referredColumn="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</associations>
+</Column>
+<Column name="ROLE_ROLE_ID" id="E35218CE-6C83-FCC1-4C75-9F283A85D821">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>50426233-5DF9-640A-3BF1-47B035254C07</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF1B99D-373E-D9C4-7DD4-1EB302514BFB" referredColumn="50426233-5DF9-640A-3BF1-47B035254C07"/>
+</associations>
+</Column>
+<Column name="START_TIME" id="DB1B128B-6ABB-812F-6162-0C143B9A047E">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="END_TIME" id="B6CF13CC-20C1-9196-B048-9678BA36A7AF">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="34176FDF-86A7-724D-FCBD-12640D24B908">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PARENT_USER_ROLE_ID" id="40B7AB50-AAB0-4259-8DCC-54E135AA9E0E">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:19:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>83D87324-B680-4E26-4DB2-00923D2C26D3</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>ACFA5ECE-C475-157E-262A-13F515DE0898</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8AFDCF67-090F-16AB-37B9-3CB285F24267" referredColumn="ACFA5ECE-C475-157E-262A-13F515DE0898"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06BE4972-A717-1B16-2168-45E18260711A" name="USER_ROLE_PK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACFA5ECE-C475-157E-262A-13F515DE0898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="317F727D-DFE9-9BA5-8CC6-D246F5131438" name="USER_ROLE_USER_ROLE_ID_IDX">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACFA5ECE-C475-157E-262A-13F515DE0898"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BAE88DE-905C-56B0-CD46-51DDB71ED216" name="USER_ROLE_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:42:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40B7AB50-AAB0-4259-8DCC-54E135AA9E0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D90AD31C-8D42-B788-4C22-2AFCB3E698E9" name="USER_ROLE_ROLE_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:44:27 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E35218CE-6C83-FCC1-4C75-9F283A85D821"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEE396E5-4AF4-11E0-94A5-11AC0A5E479E" name="USER_ROLE_USER_INFO_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:44:27 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68A7470F-73A3-3E87-1309-C8D4165AF0B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

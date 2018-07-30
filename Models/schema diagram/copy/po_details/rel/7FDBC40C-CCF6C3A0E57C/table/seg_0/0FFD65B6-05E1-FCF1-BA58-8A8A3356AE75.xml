@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FFD65B6-05E1-FCF1-BA58-8A8A3356AE75" name="REQ_ITEMS_ROLES">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>REQ_ITEMS_ROLES</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>E0A68E39-70CA-CBFC-B13D-0C19F0E33FA5</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REQ_ITEM_ID" id="6DD3E40C-7946-5B1D-901D-FD7BE14A0545">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>REQ_ITEM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>ADC8A40F-C2EE-0745-BC5F-9AF3F528927D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>15468FDD-C299-5C53-1373-E6231C98A923</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32C1C7FE-C392-5C8B-99F0-0E5E6B68AC00" referredColumn="15468FDD-C299-5C53-1373-E6231C98A923"/>
+</associations>
+</Column>
+<Column name="ROLE_ID" id="74242982-30F9-2DFA-7C7B-23BDAF2CE0F9">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>ROLE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>4A657ED5-5195-943C-4B1B-68B329589322</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>50426233-5DF9-640A-3BF1-47B035254C07</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F493E7F6-F5B7-57C4-6CA3-8A1226AC8CB1" referredColumn="50426233-5DF9-640A-3BF1-47B035254C07"/>
+</associations>
+</Column>
+<Column name="REQ_ITEMS_ROLE_ID" id="669E89A6-E5ED-235E-2B19-C5024999864F">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>REQ_ITEMS_ROLE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>2A1F09BA-11D8-C25C-A377-8D40CE7EE182</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_APPROVED" id="DD0E8742-8609-9C35-C211-28F4DACD16A7">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>IS_APPROVED</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<commentInRDBMS>0 = not approved and 1= approved</commentInRDBMS>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>1A1A279B-5DB5-AD95-D8BC-BE3FFE0A3DA1</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APPROVED_BY_USER_ID" id="AC184422-DB31-E8E6-CE1F-287BB83DFE18">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>APPROVED_BY_USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>5BAC0D87-2A65-007D-0026-96C8718A2F8B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_QTY" id="FA4CF99C-43F6-7463-4F6A-20293E0E6036">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>UPDATED_QTY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>45AFA72D-A13D-A00B-97A8-58ADEBC2FA48</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_UNIT_PRICE" id="077324DC-E131-AF36-0E08-0BDEB3D1ECA1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>UPDATED_UNIT_PRICE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A77B7201-5A05-4AB9-3B98-FE065BDC8DB8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UPDATED_TIME" id="CB4BD47A-A6F9-045B-E386-8E933D65669F">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>UPDATED_TIME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>7879C5E0-36DC-184B-D53C-45A12AFBE8BF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COOMMENT_BY_APPROVER" id="6C8025C7-C1E8-D0AC-E194-4314CF122179">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQ_ITEMS_ROLES</sourceObjSchema>
+<sourceObjName>COOMMENT_BY_APPROVER</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>DCB27E38-3712-23E0-3C36-69351EC46477</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="092534B0-3DA5-F2EC-1B4A-019600A4D7E8" name="REQ_ITEMS_ROLES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>REQ_ITEMS_ROLES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>AC4E88B4-E864-DA1C-4EA3-F758780783A6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669E89A6-E5ED-235E-2B19-C5024999864F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B33EF8D6-98E3-CCD3-00E7-D88FA0D7E09A" name="REQ_ITEMS_ROLES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>REQ_ITEMS_ROLES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>746DC247-2B6E-EDA0-A4EC-74B7D8903B39</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="669E89A6-E5ED-235E-2B19-C5024999864F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2892EF39-9652-E9B2-3FD4-AFD4CB1C606A" name="REQ_ITEMS_ROLES_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:17:04 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD3E40C-7946-5B1D-901D-FD7BE14A0545"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1438CB7-335B-DF35-F618-68205C73824F" name="REQ_ITEMS_ROLES_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:19:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74242982-30F9-2DFA-7C7B-23BDAF2CE0F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

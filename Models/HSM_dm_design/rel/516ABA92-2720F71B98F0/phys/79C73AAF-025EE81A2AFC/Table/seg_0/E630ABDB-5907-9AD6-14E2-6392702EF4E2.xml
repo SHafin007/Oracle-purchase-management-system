@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FND_USER" directorySegmentName="seg_0" id="E630ABDB-5907-9AD6-14E2-6392702EF4E2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>24B0D98C-B9C1-E5BD-CE83-5E110181BA06</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FU_PASS" id="59108670-3780-EDB9-86CA-F6451F556E4C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FU_USER_ID" id="680D1698-C52E-7C9E-27EA-2873F8378D37">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FU_EFFECTIVE_DATE_END" id="7E8C08A1-6F73-E13A-D8A3-967F3C801CE5">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FU_EFFECTIVE_DATE_START" id="89214933-B9B2-6AE2-D7B1-0DC37605E8F4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FU_USER_NAME" id="C3E310FD-D741-0363-03AC-8CE0B6C9A2D2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FND_USER_PK" id="828153CA-C63B-F5FB-98B9-5533B6F36E0A">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FND_USER_PK" id="9B924E1E-3EB7-8617-0394-6B4EC9BC8DFE">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<existingIndex>828153CA-C63B-F5FB-98B9-5533B6F36E0A</existingIndex>
+<indexSegment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

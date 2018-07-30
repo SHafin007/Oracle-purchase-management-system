@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SHIPMENT_LIST_TRG" directorySegmentName="seg_0" id="D93665C3-08FB-7BC3-89DE-0FBAB6C2680E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SHIPMENT_LIST_TRG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN&lt;br/&gt;  &lt;&lt;COLUMN_SEQUENCES&gt;&gt;&lt;br/&gt;  BEGIN&lt;br/&gt;    IF INSERTING AND :NEW.SHIP_LIST_ID IS NULL THEN&lt;br/&gt;      SELECT SHIPMENT_LIST_SEQ.NEXTVAL INTO :NEW.SHIP_LIST_ID FROM SYS.DUAL;&lt;br/&gt;    END IF;&lt;br/&gt;  END COLUMN_SEQUENCES;&lt;br/&gt;END;&lt;br/&gt;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>1B5EF627-5D59-0734-4623-B02A8B86213D</table>
+</TriggerOraclev10g>

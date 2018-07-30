@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52DD9E85-B2AC-67F5-63A5-4D9969AF3FCF" name="ROOM">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A76D77E8-93E6-131F-3676-AD3B38A1D55A</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROOM_ID" id="F99A6CB8-C107-2C85-36D4-5D8FCD5959C7">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>9E85EA83-B78D-5DF3-2C6A-255455FACD34</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROOM_NUMBER" id="63B3B9C7-7108-C35E-407B-A5F38FF3BFBE">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>F0D2AD6B-BE20-1EFE-6497-DFF430407F0F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BUILDING_BUILDING_ID" id="999DCEE9-5225-AE2A-F18C-7644E4A448FE">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>FF53B9CD-29C6-5D3F-613C-EFCB95B33886</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>E62110F1-0260-D8C2-A3FD-A09FE7DAB334</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BCAB09B6-6AA7-68E1-FF45-33F37AD58D12" referredColumn="E62110F1-0260-D8C2-A3FD-A09FE7DAB334"/>
+</associations>
+</Column>
+<Column name="PHONE" id="C8797C3F-C946-54C8-71CB-FF458123A48F">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>71B845A9-6663-DD7E-1A87-565E8E580876</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_ID" id="38CD708D-1EDB-2C24-A446-B42A29A055CB">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-30 07:01:09 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>9F3BBB64-8B2E-29A2-4AAD-470BCF655DF0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F324483F-72B0-B369-48CE-3CF8F483C2BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE399A37-D2E4-EC83-70F8-696F4A3C6655" referredColumn="F324483F-72B0-B369-48CE-3CF8F483C2BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0501FD45-4E6E-875B-C334-F91AD13B07BB" name="ROOM_PK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>687AFFBE-AA43-9EAE-16A6-CD52D4B9B142</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99A6CB8-C107-2C85-36D4-5D8FCD5959C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF3A3804-44D3-9864-0920-757B84FAF7A8" name="ROOM_ROOM_ID_IDX">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:25:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>9B598564-3CC5-3AED-4A56-52E2F38EFFC9</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F99A6CB8-C107-2C85-36D4-5D8FCD5959C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64475952-0B9F-8409-B932-AFA7E4D6D8A1" name="ROOM_BUILDING_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:59:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="999DCEE9-5225-AE2A-F18C-7644E4A448FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB921D7E-3A0D-0F86-0F98-9957673204D0" name="ROOM_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:19:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38CD708D-1EDB-2C24-A446-B42A29A055CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

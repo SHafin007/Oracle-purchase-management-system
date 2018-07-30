@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B27D3E06-38CC-3620-E6E4-0404ACB9F014" name="BUGET_ITEMS_BUDGET_LIST_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>0033B3D6-7DA6-2FF7-A9FE-BE2B4FF14499</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>7BCF5839-FFD0-F367-EC76-FFE945312FA0</localFKIndex>
+<keyObject>596FCFB0-0686-71BA-5CD2-76AC190B4665</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48C89CB8-299D-FB52-E151-583131114EF6" name="UOM_CLASS_CONVERSION">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_CLASS_CONVERSION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>31C7B770-1425-51F8-EC0A-55479E2188ED</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UOM_CLASS_CONV_ID" id="B440F728-B958-8091-17D9-F5076FA7A915">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM_CLASS_CONVERSION</sourceObjSchema>
+<sourceObjName>UOM_CLASS_CONV_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>1DA8B656-3659-72E4-77BD-16F7737F20AE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOM_ID" id="5A589011-F638-0563-A39A-CDBB8F7DCC84">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM_CLASS_CONVERSION</sourceObjSchema>
+<sourceObjName>UOM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>27D3AACD-AC5C-5AFA-420F-849CA897E2E0</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>759BAF7F-539E-69B3-529D-28B7AC763FBC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EC4F0FF-0328-464F-BDB7-188BA31153E0" referredColumn="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</associations>
+</Column>
+<Column name="PRODUCT_ID" id="2970995D-996E-EFB8-660A-B591B02A81FD">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM_CLASS_CONVERSION</sourceObjSchema>
+<sourceObjName>PRODUCT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>C089DEC8-85B8-0B6A-9D59-27865A6E2C59</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>7C0EC8F0-73E6-1904-9785-9142E5F9E4B2</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C91F99F8-3979-7614-2156-8D558AC645DA" referredColumn="7C0EC8F0-73E6-1904-9785-9142E5F9E4B2"/>
+</associations>
+</Column>
+<Column name="FROM_UOM" id="8FBFF684-4D47-3E38-1F62-CEB1CC76353E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM_CLASS_CONVERSION</sourceObjSchema>
+<sourceObjName>FROM_UOM</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>AE6900D3-F70F-FCE1-C669-EFB1DAB0CF04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TO_UOM" id="F9A2335D-1E9D-DB98-BE52-D7BE3CAB3942">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM_CLASS_CONVERSION</sourceObjSchema>
+<sourceObjName>TO_UOM</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>87AD9422-1FEA-587A-743A-B81829D9E346</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D75B7D26-F8B7-42A0-7D4A-2BE3273EA5F0" name="UOM_CLASS_CONVERSION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_CLASS_CONVERSION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>81A049DF-214D-00B9-3ED6-DFBCA5D1C187</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B440F728-B958-8091-17D9-F5076FA7A915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C9ACC89-F3CA-8EF3-E162-E63A8440799A" name="UOM_CLASS_CONVERSION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_CLASS_CONVERSION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:47:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>B47B5258-C258-5F93-6795-0CC8A72CA9A7</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B440F728-B958-8091-17D9-F5076FA7A915"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79D258FF-9EB3-1B9D-89E9-401464423EEC" name="UOM_CLASS_CONVERSION_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:49:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A589011-F638-0563-A39A-CDBB8F7DCC84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="630BF953-0826-98E0-1FB2-D32B5FF5F549" name="UOM_CLASS_CONVERSION_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:49:54 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2970995D-996E-EFB8-660A-B591B02A81FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

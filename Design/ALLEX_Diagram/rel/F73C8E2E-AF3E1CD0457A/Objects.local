@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="5C479824-E04D-8664-6F31-B61BE5BD7759" name="ALLEX" seqName="seg_0"/>
+   <object objectType="Table" objectID="0B1FF909-828D-6D87-F258-6390914DB6EC" name="COMPANY" seqName="seg_0"/>
+   <object objectType="Table" objectID="F9876BBB-0C1D-C03D-F3F7-2E8E8DAED291" name="CUSTOMER" seqName="seg_0"/>
+   <object objectType="Table" objectID="D3837D83-A426-4537-9416-4B7E8F1483CC" name="LOGIN" seqName="seg_0"/>
+   <object objectType="Table" objectID="2C873952-FB2F-F389-5AC8-4D575131CD75" name="PRODUCTS" seqName="seg_0"/>
+   <object objectType="Table" objectID="51BB628D-76EE-319A-AB5D-9FC5790080C1" name="PRODUCT_TYPE" seqName="seg_0"/>
+   <object objectType="Table" objectID="1DAB7B2E-7962-8543-8AF4-2B520BF82F53" name="QUOTATION" seqName="seg_0"/>
+   <object objectType="Table" objectID="CEC38C34-B937-1E08-292A-97FDD8AA9415" name="QUOTATION_ITEMS" seqName="seg_0"/>
+   <object objectType="Table" objectID="A642495A-4E2F-35A8-5F96-189F838121FF" name="SUPPLIERS" seqName="seg_0"/>
+   <object objectType="Table" objectID="847E9D1B-8D84-86C9-1B1F-EEEAE02BF0B1" name="UNIT" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="918FD571-7136-4C09-FC2E-5863A1D1C864" name="COMP_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FC4476A8-A1D5-4338-A5A1-135F347DAE1A" name="QI_QUOT_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="3C4DABE6-9F99-8331-6727-3388A0F9B00A" name="PROD_TYPE_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="2752191E-A970-70C4-39A3-62CEB38AE74D" name="QI_PROD_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="7EADB420-31ED-FEFA-DFB9-6195BE36FE65" name="QUOTATION_COMPANY_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="5216970D-54A1-F6D1-463E-B52C620A0215" name="SUPP_ID_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="B78F6E80-92CD-4F17-D82E-32D1168EC746" name="UNIT_ID_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

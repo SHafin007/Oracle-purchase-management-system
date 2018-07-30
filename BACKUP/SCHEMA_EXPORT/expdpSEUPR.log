@@ -1,0 +1,83 @@
+;;; 
+Export: Release 11.2.0.1.0 - Production on Mon Feb 5 17:04:24 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Starting "SEUPR"."SYS_EXPORT_SCHEMA_01":  seupr/********@orcl schemas=seupr directory=exp_schema dumpfile=seupr.dmp logfile=expdpSEUPR.log REUSE_DUMPFILES=Y 
+Estimate in progress using BLOCKS method...
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Total estimation using BLOCKS method: 58.25 MB
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+. . exported "SEUPR"."SYS_EXPORT_FULL_01"                46.49 MB   21968 rows
+. . exported "SEUPR"."PHOTO"                             85.21 KB       3 rows
+. . exported "SEUPR"."PRODUCTS"                          50.50 KB       6 rows
+. . exported "SEUPR"."BANK"                              5.992 KB       7 rows
+. . exported "SEUPR"."BANK_ACCOUNT"                      7.117 KB       3 rows
+. . exported "SEUPR"."BLOOD"                             5.492 KB       8 rows
+. . exported "SEUPR"."BUDGET_LIST"                       6.289 KB       2 rows
+. . exported "SEUPR"."COUNTRY"                           12.26 KB     268 rows
+. . exported "SEUPR"."CURRENCY"                          11.87 KB     268 rows
+. . exported "SEUPR"."DEPARTMENTS"                       5.875 KB       3 rows
+. . exported "SEUPR"."DESIGNATION"                       5.531 KB       5 rows
+. . exported "SEUPR"."GENDER"                            5.445 KB       3 rows
+. . exported "SEUPR"."NOTIFICATION"                      19.62 KB     102 rows
+. . exported "SEUPR"."ORDER_DISTRIBUTION"                8.367 KB       5 rows
+. . exported "SEUPR"."ORDER_ITEMS"                       9.601 KB       4 rows
+. . exported "SEUPR"."ORDER_LIST"                        10.14 KB       4 rows
+. . exported "SEUPR"."ORDER_SHIPMENT_SCHEDULES"          9.203 KB       5 rows
+. . exported "SEUPR"."PERSON"                            11.48 KB      11 rows
+. . exported "SEUPR"."RCV_SHIPMENT_ITEMS"                9.140 KB       2 rows
+. . exported "SEUPR"."RCV_SHIPMENT_LIST"                 6.312 KB       3 rows
+. . exported "SEUPR"."REQUISITION_DISTRIBUTION"          7.953 KB       3 rows
+. . exported "SEUPR"."REQUISITION_ITEMS"                 12.21 KB       6 rows
+. . exported "SEUPR"."REQUISITION_LIST"                  7.546 KB       6 rows
+. . exported "SEUPR"."REQ_ITEMS_ROLES"                   8.625 KB      15 rows
+. . exported "SEUPR"."ROLE"                              7.890 KB      15 rows
+. . exported "SEUPR"."ROLE_CATEGORY"                     5.476 KB       2 rows
+. . exported "SEUPR"."ROOM"                              6.656 KB       4 rows
+. . exported "SEUPR"."SUPPLIER_LIST"                     8.757 KB       5 rows
+. . exported "SEUPR"."SUPPLIER_SITES"                    7.156 KB       2 rows
+. . exported "SEUPR"."SUPPLIER_SITE_PROD_PRICE"          6.703 KB       4 rows
+. . exported "SEUPR"."SUPP_PROD_PRICE"                   7.179 KB       7 rows
+. . exported "SEUPR"."UOM"                               6.843 KB      12 rows
+. . exported "SEUPR"."UOM_CLASS"                         5.867 KB       4 rows
+. . exported "SEUPR"."USER_INFO"                         7.914 KB      11 rows
+. . exported "SEUPR"."USER_ROLE"                         7.695 KB      21 rows
+. . exported "SEUPR"."BRAND"                                 0 KB       0 rows
+. . exported "SEUPR"."BUGET_ITEMS"                           0 KB       0 rows
+. . exported "SEUPR"."BUILDING"                              0 KB       0 rows
+. . exported "SEUPR"."CALENDER_DATE"                         0 KB       0 rows
+. . exported "SEUPR"."EMPLOYEES"                             0 KB       0 rows
+. . exported "SEUPR"."MARITIAL_STATUS"                       0 KB       0 rows
+. . exported "SEUPR"."ORDER_RELEASE"                         0 KB       0 rows
+. . exported "SEUPR"."ORGANIZATION"                          0 KB       0 rows
+. . exported "SEUPR"."PRODUCT_CATAGORY"                      0 KB       0 rows
+. . exported "SEUPR"."PRODUCT_CATEGORY_SET"                  0 KB       0 rows
+. . exported "SEUPR"."PROD_BRAND"                            0 KB       0 rows
+. . exported "SEUPR"."RELIGION"                              0 KB       0 rows
+. . exported "SEUPR"."UOM_CLASS_CONVERSION"                  0 KB       0 rows
+. . exported "SEUPR"."UOM_CONVERSION"                        0 KB       0 rows
+Master table "SEUPR"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SEUPR.SYS_EXPORT_SCHEMA_01 is:
+  D:\SAIFURSOFT\SEUPR\BACKUP\SCHEMA_EXPORT\SEUPR.DMP
+Job "SEUPR"."SYS_EXPORT_SCHEMA_01" successfully completed at 17:05:03

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="USER_INFO_SEQ_TR" directorySegmentName="seg_0" id="A23C8600-9549-22A8-B30B-C65472F7256C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO_SEQ_TR</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>BEGIN :NEW.USER_ID := SEU_PO_REQ.user_info_seq.NEXTVAL;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<condition>NEW.USER_ID IS NULL</condition>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>1A237022-DE38-BDEE-0E4B-CFF935AE39F9</table>
+</TriggerOraclev10g>

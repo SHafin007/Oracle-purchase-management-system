@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ONT_BRAND" directorySegmentName="seg_0" id="ED4BB82A-F389-5000-376A-5C28154A2F3C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>24B0D98C-B9C1-E5BD-CE83-5E110181BA06</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="OB_BRAND_ID" id="B4F63C20-E5FE-7057-A8F0-DF3F7A7822F3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OB_BRAND" id="CFCBAB95-37A1-3C9B-3E4F-57E848B5FBC2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ONT_BRAND_PK" id="4FA90B2B-D7AF-56BD-4044-D6FD09018317">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<schemaObject>57E87950-27FA-50DF-9F1D-54C619FF620D</schemaObject>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ONT_BRAND_PK" id="A13B36E7-6FD7-F991-503E-4E972D8BF9A1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<segment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</segment>
+<tableSpace>694DAC9F-DB98-14CC-E543-33A6AB57EA89</tableSpace>
+<existingIndex>4FA90B2B-D7AF-56BD-4044-D6FD09018317</existingIndex>
+<indexSegment>FF2C063B-19EF-DE4C-4721-F0B72C1D7AC4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REQUISITION_ITEMS" directorySegmentName="seg_0" id="BBFC4F73-B6B5-BE7A-1BAF-FB6E3DFF851A">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REQUISITION_ITEMS_PK" id="EFDFA36D-4810-CC39-79DE-7D78F1986A08">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="USER_INFO_USER_ID" id="0302F6C3-513B-9D42-9D85-6FBA89C54902">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQ_LINE_TYPE_ID" id="09AFA002-C5C8-7FAA-C446-7D30098B3BBB">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:35:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQUISITION_LIST_REQ_LIST_ID" id="137507E3-B58E-34D7-15E9-B72E2A0106CA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IS_APPROVED" id="1538A307-4CB4-45BE-0C27-775BEEC3FE8B">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DELIVERY_LOCATION" id="364BD34A-6E84-8A2C-99C9-16A802E7F0AA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="4F890026-1576-195A-90F3-7116B433F46A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCT_ID" id="5A92E9B4-CE8A-707F-D905-E32B577C437A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_LIST_SUPP_ID" id="6AB1D49F-20FF-70FD-FF7E-033A4D3FDF58">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTIONS" id="7152DA0C-A7AC-8F69-A13F-759BBFE03F59">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_SITES_SUPP_SITE_ID" id="8ACA9093-549C-592B-C4CD-1C6A2C5950A0">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REQ_ITEM_ID" id="8EAA5BE1-F189-A700-14EC-C654E3C8D0F7">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPP_CONTACT" id="A0E54478-8BE1-E340-5A0D-5F75C5EA9D0E">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUDGET_LIST_BUDGET_LIST_ID" id="A1A04A90-F426-152F-7293-2D4063B8DD14">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UOM_UOM_ID" id="BAC82DCF-2155-3F90-29D6-A5D68A648CE5">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NEED_BY_DATE" id="BEF9DEC3-2B29-D798-9228-900889D39739">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="E95A38AC-B7D3-5E91-93BD-27088D163089">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESTINATION_TYPE_ID" id="F3B832F6-03D4-4CD9-DEE0-726F5BEE1156">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_FK2" id="3F38F2B7-556D-70F2-FF26-1335EDC431A9">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_FK3" id="568F25CD-77C5-0ED6-5A90-F9F8583A889E">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_FK1" id="64E343BC-4821-03E2-C1EE-3C1D9B53C9BA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_USER_INFO_FK" id="9EBAB623-26EF-B917-D415-4381089840FF">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_FK4" id="A68F0480-EC4E-3896-8866-FC2BCC82D033">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REQUISITION_ITEMS_UOM_FK" id="B037D6C7-FD8E-BFD3-57CF-6ADA344B285F">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REQUISITION_ITEMS_PK" id="A4330ECC-6868-226B-C1D0-4E1F272D19CB">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

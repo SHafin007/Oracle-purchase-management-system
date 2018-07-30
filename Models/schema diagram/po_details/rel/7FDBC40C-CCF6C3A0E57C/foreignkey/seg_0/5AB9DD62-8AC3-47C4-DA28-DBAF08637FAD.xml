@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5AB9DD62-8AC3-47C4-DA28-DBAF08637FAD" name="RCV_SHIPMENT_ITEMS_FK1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>RCV_SHIPMENT_ITEMS_FK1</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:41:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>E41AB019-1346-61B8-2755-F1E0C07472C5</importedID>
+<lineWidth>4</lineWidth>
+<containerWithKeyObject>33F891C1-52D4-12CE-BAD7-3FB6A331E7C7</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>4DA6B1BB-9029-14BA-C768-2653EA29C051</localFKIndex>
+<keyObject>CBE4F1ED-1604-0CEF-8B41-1F65C8F4D91A</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

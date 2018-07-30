@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PERSON" directorySegmentName="seg_0" id="DBF9F776-B97C-6DA8-5BF5-8A61514AABBC">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PERSON_PERSON_ID_IDX" id="33EBE114-A8B4-436E-7C27-248CE536E2D1">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PERSON_ID" id="0E4A4823-BE2F-2EA5-9709-5C5BD56530A5">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOB" id="0FDB6329-3A4E-7B82-221F-71C22A4AF21C">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NATIONALITY_ID" id="22C64BE8-843D-5945-0762-1C2AEED14E03">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDRESS" id="289AA70E-F949-6C81-BAB5-423E1B0673D1">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BLOOD_BLOOD_ID" id="407E826C-6E64-0E0F-F998-A509BA46D2B6">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_ID" id="45AD31FB-C4A3-4600-FF88-AE9E5EE35469">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:56:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARITIAL_STATUS_MAR_STAT_ID" id="7154D556-EFE2-E673-6688-C5C87372FF64">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHOTO_PHOTO_ID" id="74856133-10B4-31A9-6D38-EA7C83018D0A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAX" id="752BB770-DA40-5C4D-131F-7B4A9CB47768">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITLE" id="7951D01E-0CD7-7ED2-454A-F2D887ACB816">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="9E3DF610-D91F-EFEF-708D-8DEA8E65A0F0">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LAST_NAME" id="B1C6FB80-0CEB-3CF1-6469-FDFEE0DBE919">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NID" id="B2601EED-E54A-6B5A-FD69-CDC983BCB9EE">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENDER_GENDER_ID" id="C1A8C8AC-1A6C-899B-049B-5CCC72EBA14A">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RELIGION_RELIGION_ID" id="C852EBD3-3678-AAC6-7785-17A9413F0D83">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="D3AFA6FD-16EB-714F-102B-16AF3915C410">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_INFO_USER_ID" id="E3952F62-3B78-EF5C-3FC8-3A458E977371">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 08:54:28 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_GENDER_FK" id="1EB5EBD4-69CA-358C-69EE-DE3481CB95CA">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_BLOOD_FK" id="25F072CA-C7C2-43A7-0D92-77CEC0A4470F">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_RELIGION_FK" id="B5938AC6-3283-3011-A7F4-E235C586C6C2">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_PHOTO_FK" id="D3D922FD-455A-1662-114C-F122975FF2D8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_MARITIAL_STATUS_FK" id="EDD88818-DB8B-0018-31F5-6E6EDBB822B1">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PERSON_USER_INFO_FK" id="F70088D1-D9ED-CCD4-0998-7BDD1E528FFE">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 08:54:28 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PERSON_PK" id="D14457CA-275F-DDFA-3B79-E0566D40CCB0">
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:30:31 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

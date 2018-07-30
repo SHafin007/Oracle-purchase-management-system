@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="po_details" id="9A003652-2D7F-3ACB-51AF-1B7503AD2CBD" version="3.5">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:18:01 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9A003652-2D7F-3ACB-51AF-1B7503AD2CBD</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="90BC1B27-EEBA-0810-8150-90D9F1FCD394">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C32E3120-6D44-7939-9B1D-5827DA5F1DE7">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B5F0A98E-4DB9-E408-2733-CA82D667B8D6">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="631527E7-B2F5-9239-1B64-C11C04F4C294">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E9BAD6AD-98EE-A76C-D7B7-5A290613CAB1">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E11708E3-34DE-E980-B573-5E59B7141EF9">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B21E6A7C-BE29-8189-EF1E-2D24B1FB245F">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3FFCC588-D2A0-9FFA-EC26-30E01AB29520">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E0EFB67A-8301-AC75-5DF8-8B478B1FB003">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3C00801D-CE03-B7DC-5E9C-DFB0DA273CCE">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="20F3215A-B6BF-28CD-4B94-8247787A4C0A">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="137D1BF6-7FA8-20B6-13E1-F9F290390B62">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C25A8FD5-7972-C9D4-8576-390C97B2EBDA">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="08597AA9-99D8-770C-8EA3-D3F579418105">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="817002B4-5765-5B70-1C9D-78060D1AD35C">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4D70BEC7-A7A0-C579-14A4-9C10FBF7EC99">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CB2D2E53-0698-3966-6B9B-785F8CEBC45F">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C82DFFEC-D18B-6282-1531-34E402B1E770">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="76ABFC76-4901-562C-9EAF-0139AA9563FD">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="88A38877-A377-0F7D-FC17-ED7B01A31C56">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="517DF75F-7B83-9CC9-FC96-EEF1AD90C81E">
+<designStoragePath>D:\RESEARCH\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="87BF6CB2-3759-F661-EB72-CD5D8AEAEF58">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5F9EA6B0-BF02-B558-3D6A-F84A560AB59C">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="AF3BAC2F-D52E-8EF5-F4BE-7D1E999F6477">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="7CCA9F6C-AB34-45E8-523A-9DC4D2471960">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="157C065F-339E-D9B7-8409-CAD5728801D9">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E56996C7-71FE-FAFE-6AA3-35F1E7F65050">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FB32E5EF-FB0D-F72B-3256-EA44129C9443">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="394FF949-FB5F-C837-9E52-1ECDBE7C2D17">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="614513B5-9666-7CEE-002A-1924403A77B2">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8BA88420-449C-4214-8A1B-96F904FE655B">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D7578D78-31F8-51F7-7EBD-C7F056A7410A">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8D6DCBDE-15A9-4898-75BF-72D9884286AE">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="4490FD76-64BD-79D5-B972-8136B6159971">
+<designStoragePath>E:\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="BE1AEC22-CA71-ADD2-7DA8-C14D4CB63970">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="965CA100-9007-00CB-0DC9-205969920E88">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1673E676-35F6-CA4F-EC3C-81983545CD76">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8F3F1F61-DDDC-700B-94E1-4A3D11C03864">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="87E6D442-8C7A-6E3F-23E7-8FEEFE65744D">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="3FDF1DDD-9430-24E1-62D4-BB170E81F5C4">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E9F46A39-9A38-711A-D962-1305946F14DB">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="61633C40-5AF7-726D-386C-C5651BA389CA">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="32C3B38A-F58A-F373-F1A1-C4FEA27703E7">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="D13F60AA-C9F7-5AEA-2667-FB2FFE8EA3FA">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="CA024FA1-3520-F347-F5E4-4658DB8FA5F7">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="FF5B7096-40E9-8E35-6B35-8FF90E462684">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2D75EF81-5A20-0544-7656-1B8961B26148">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="30D2C751-1D76-C31F-12BC-94A8C03ADDC0">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8352F334-9C58-1D5F-DA8A-3482E5093D8B">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="5BE794EB-AE75-52FB-CE4C-969F37348B39">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="1FD7750D-BFA7-B254-CB1F-A20CF42FD03D">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="2810E398-9582-0DC2-BF53-73011989950C">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B2E060A5-8DE7-E7B7-0D7F-FBC8EF3CE240">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="62495B1F-A5FE-EA95-278B-C07A3EC1CA16">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="17F626F9-3E1A-09F5-7798-AD254071B75C">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="11CE6529-F0BE-1E37-1E0B-D1B261BEF0C5">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="59E60596-5181-2854-07E4-35F40C707BBB">
+<designStoragePath>D:\SAIFURSOFT\SEUPR\Models\schema diagram</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

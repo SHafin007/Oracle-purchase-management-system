@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA50F2EA-74AD-5F20-E66C-49881FFB6BF4" name="ROLE">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ROLE_ID" id="50426233-5DF9-640A-3BF1-47B035254C07">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>ROLE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE" id="F835A609-207A-CA04-CA64-0648024ACF7A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>ROLE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROLE_DESC" id="D8B5599B-F441-F438-3554-5F123FCEA3AC">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>ROLE_DESC</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_ID" id="539FB408-A8A7-4B21-696E-5EC3D705B428">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ROLE</sourceObjSchema>
+<sourceObjName>DEPT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-30 07:01:09 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>E1B54BC9-C065-DC87-D4C9-AC810D50B417</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F324483F-72B0-B369-48CE-3CF8F483C2BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A4AA40C-84D7-AE7D-7E01-5D281670EB54" referredColumn="F324483F-72B0-B369-48CE-3CF8F483C2BD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4962D3CE-7484-777D-5654-7FBB0CBD3DCA" name="ROLE_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50426233-5DF9-640A-3BF1-47B035254C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB1CCDCC-E433-1CCA-23F8-DFF33CC795B5" name="ROLE_ROLE_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROLE_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50426233-5DF9-640A-3BF1-47B035254C07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81CF8388-9DC8-CEC8-68C7-7080283B85C7" name="ROLE_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-30 07:01:09 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="539FB408-A8A7-4B21-696E-5EC3D705B428"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

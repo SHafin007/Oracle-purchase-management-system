@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_SHIPMENT_SCHEDULES" directorySegmentName="seg_0" id="475D8CE7-0B3A-928D-22F0-D2B94673098D">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C05C08AC-621D-6070-5221-C82D8D21215F</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_PK" id="9A856644-CF95-6A8F-6F45-9B6809966522">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PROMISED_DATE" id="265867C0-A38F-7C18-6150-02DAA1843541">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_SHIP_SCHEDULE_ID" id="31571620-F576-E7DE-3281-31A04061F7B3">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_ITEMS_ORDER_ITEM_ID" id="4E7BD5F5-AA2B-A925-B12F-AA007E7021D3">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BANK_ACCOUNT_BANK_ACCT_ID" id="580CF090-4D8F-11FD-24CC-C52D0AE03F67">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UOM_UOM_ID" id="5B448AA9-60F4-3E5F-A209-C91551633B2E">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SHIP_TO_LOC" id="6BFA2B7A-AF9F-7BAE-83A8-94B240198147">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_RELEASE_ORDER_RELEASE_ID" id="7F9AA8C5-5D0D-AA14-C87E-D964FB5AA400">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CHARGE_AMOUNT" id="CAAF2A45-FA80-7500-8EFF-40D0CC229BB8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NEED_BY_DATE" id="E32B085A-A463-E114-69D6-B294D9890970">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QTY" id="E5F0AD11-6644-309A-0DEB-E4FBA5701DC5">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECEIVIED_QTY" id="F6982858-25B5-6FD9-BD07-E3E1974EBEF8">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 17:12:40 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_FK4" id="439AE86C-2642-8335-AEB7-22C1A8D4FC10">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_FK1" id="6C4A315A-8972-79D4-1D40-67AD53DBB0BC">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_FK3" id="AD2DB8EC-64E4-2D22-D9D1-F7B19EDA428C">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_FK2" id="EF697A7C-B366-8158-C230-77DD5E3AEC33">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_SHIPMENT_SCHEDULES_PK" id="77DA3314-ECE9-C135-980B-55A351D5BDBD">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-30 15:36:03 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

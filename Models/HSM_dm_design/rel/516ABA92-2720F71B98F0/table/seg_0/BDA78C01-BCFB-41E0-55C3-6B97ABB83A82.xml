@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDA78C01-BCFB-41E0-55C3-6B97ABB83A82" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_DEPARTMENTS">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_DEPARTMENTS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:24 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="HD_DEPT_ID" id="21B8AF08-1A65-8941-B736-5BDCEA39DBAD">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_DEPARTMENTS</sourceObjSchema>
+<sourceObjName>HD_DEPT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HD_DEPT_NAME" id="28C93D33-0C37-1C06-A2E0-BA6B1C1B3253">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>HR_DEPARTMENTS</sourceObjSchema>
+<sourceObjName>HD_DEPT_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7454AF4-0879-F2E4-3A1F-AC086CE365CB" name="HR_DEPARTMENTS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_DEPARTMENTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B8AF08-1A65-8941-B736-5BDCEA39DBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="123E560F-D76C-42E6-A2BC-EBCBA527B392" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="HR_DEPARTMENTS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>HR_DEPARTMENTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21B8AF08-1A65-8941-B736-5BDCEA39DBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

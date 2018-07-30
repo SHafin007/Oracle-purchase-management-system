@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7EADB420-31ED-FEFA-DFB9-6195BE36FE65" name="QUOTATION_COMPANY_FK">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>QUOTATION_COMPANY_FK</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<containerWithKeyObject>1DAB7B2E-7962-8543-8AF4-2B520BF82F53</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>600140BC-889E-1B40-0DDB-7145E086E671</localFKIndex>
+<keyObject>E44D2B52-CD02-7CF5-FC8E-98AB3F9FF926</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

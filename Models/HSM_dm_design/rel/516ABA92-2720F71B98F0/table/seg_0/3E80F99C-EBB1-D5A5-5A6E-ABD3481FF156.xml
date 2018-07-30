@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3E80F99C-EBB1-D5A5-5A6E-ABD3481FF156" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_CUSTOMERS">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_CUSTOMERS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OC_CUST_ID" id="251DAE5E-CC5D-F626-8090-C134A0068F3A">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>OC_CUST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OC_PERSON_ID" id="D192521A-0809-441B-DF23-65253DC845D1">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>OC_PERSON_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<commentInRDBMS>person table</commentInRDBMS>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OC_REMARKS" id="6AA1FB21-7EE5-47E3-511F-D04C41ED1418">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>OC_REMARKS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OC_STATUS_LIST_ID" id="9E64B015-8210-5D33-A55D-62B3CDCDCA1F">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>OC_STATUS_LIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<commentInRDBMS>customer status</commentInRDBMS>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OC_ENTRY_DATE" id="CFC276D2-7201-E57B-CE78-9CBB2269F7C1">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>OC_ENTRY_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CITY_ID" id="18E61CD7-8B50-A369-B6B4-EF85B4AE9FEA">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_CUSTOMERS</sourceObjSchema>
+<sourceObjName>CITY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="500EB62C-7A0F-B53E-8CBF-F3AA8D933746" name="ONT_CUSTOMERS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_CUSTOMERS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="251DAE5E-CC5D-F626-8090-C134A0068F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B89C0CCE-C942-89F0-87F3-8E0FFDED6E02" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_CUSTOMERS_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_CUSTOMERS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="251DAE5E-CC5D-F626-8090-C134A0068F3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

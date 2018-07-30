@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="25B74ADA-81D4-7569-70CA-6AD201963F2E" name="COUNTRY">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>142DA58C-618C-640C-BB08-464E538C9E83</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="COUNTRY_ID" id="BC44997B-9251-95BB-076E-CF584E1F51D2">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>COUNTRY</sourceObjSchema>
+<sourceObjName>COUNTRY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>DF4A60D9-FFB6-B93C-58AB-B29DA41587D8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRY" id="C7447958-B003-97C5-1EF1-9EF9A468C44A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>COUNTRY</sourceObjSchema>
+<sourceObjName>COUNTRY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>EF76D02B-A04A-4DB6-8873-954952E660EF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_ID" id="ED76A8CC-19C4-A0BE-2B53-D21641B73340">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>COUNTRY</sourceObjSchema>
+<sourceObjName>CURRENCY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>2F54EA0C-785C-05BC-06D0-E79275734D0C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>748F5092-2B4C-A85C-6512-AA6B28940C84</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="36159CEF-5042-D553-59F0-0C1CE565A6F8" referredColumn="748F5092-2B4C-A85C-6512-AA6B28940C84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="658FEBD5-D871-B67D-2DF0-122A9424F13A" name="COUNTRY_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>COUNTRY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>7C68BA78-23DB-34C4-E9C5-C81A28F181DD</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC44997B-9251-95BB-076E-CF584E1F51D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD3361DE-77B8-E5AB-2B95-70CEF2C7FE4D" name="COUNTRY_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>COUNTRY_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 17:14:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>D37E7D0A-6C3A-FB44-9FB0-232AC65FF5FC</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BC44997B-9251-95BB-076E-CF584E1F51D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7015B74A-BE04-C3DE-F36E-B1609504C005" name="COUNTRY_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-12 12:44:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED76A8CC-19C4-A0BE-2B53-D21641B73340"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8C354AE9-DA6F-C184-76C9-E71814CBEDF7" name="ORDER_DISTRIBUTION_FK3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>3</lineWidth>
+<containerWithKeyObject>47D55716-575F-F9E8-DA88-15170ACF6DB7</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>82EF923B-243A-C23C-71B6-E142B461A192</localFKIndex>
+<keyObject>6681F150-8C98-57EC-62F9-6B18C752E3BB</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

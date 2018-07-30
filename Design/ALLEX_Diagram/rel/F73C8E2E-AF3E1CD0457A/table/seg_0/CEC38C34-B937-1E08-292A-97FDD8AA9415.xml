@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEC38C34-B937-1E08-292A-97FDD8AA9415" name="QUOTATION_ITEMS">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>ALLEX</sourceObjSchema>
+<sourceObjName>QUOTATION_ITEMS</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<schemaObject>5C479824-E04D-8664-6F31-B61BE5BD7759</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="D641B87A-2752-743D-B8CE-52D9EA07F1F0">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>QUOTATION_ITEMS</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>EBB26F45-1516-7693-82BF-EEBA02E306AA</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2752191E-A970-70C4-39A3-62CEB38AE74D" referredColumn="EBB26F45-1516-7693-82BF-EEBA02E306AA"/>
+</associations>
+</Column>
+<Column name="QUANTITY" id="E303F73F-00A1-8B27-2431-2F35ABAB3C0F">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>QUOTATION_ITEMS</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DISCOUNT" id="A41DC63A-2880-7E93-523B-A60327F82307">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>QUOTATION_ITEMS</sourceObjSchema>
+<sourceObjName>DISCOUNT</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUOT_ID" id="1D9174F8-9878-FA4F-1571-1789F1E6800F">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>QUOTATION_ITEMS</sourceObjSchema>
+<sourceObjName>QUOT_ID</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>D5C3154F-395A-9ADD-3F28-0C8243578A17</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC4476A8-A1D5-4338-A5A1-135F347DAE1A" referredColumn="D5C3154F-395A-9ADD-3F28-0C8243578A17"/>
+</associations>
+</Column>
+<Column name="QI_PRICE" id="15CC300F-208A-854A-2E2E-8C7D1E0B1172">
+<sourceConnName>Allex</sourceConnName>
+<sourceObjSchema>QUOTATION_ITEMS</sourceObjSchema>
+<sourceObjName>QI_PRICE</sourceObjName>
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D76D556-B9F9-FD9A-3DFF-DB3127D19017" name="QI_PROD_ID_FK">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D641B87A-2752-743D-B8CE-52D9EA07F1F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="268DB22B-05B7-F8D6-0DB4-DF92D11E08C4" name="QI_QUOT_ID_FK">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 20:26:49 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D9174F8-9878-FA4F-1571-1789F1E6800F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

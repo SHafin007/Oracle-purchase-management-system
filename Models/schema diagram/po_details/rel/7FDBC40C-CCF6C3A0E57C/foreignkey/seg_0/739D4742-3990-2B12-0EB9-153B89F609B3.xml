@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="739D4742-3990-2B12-0EB9-153B89F609B3" name="BANK_ACCOUNT_BANK_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>8C5DD969-D077-4D3D-4831-CCB49703A4C4</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>766E9361-5F98-4606-191A-F0701A4C12B2</localFKIndex>
+<keyObject>1D38C346-C64B-E45E-3AB5-860531D1F7F4</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,82 @@
+;;; 
+Import: Release 11.2.0.1.0 - Production on Fri Feb 2 13:31:17 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Master table "SEUPR"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "SEUPR"."SYS_IMPORT_SCHEMA_01":  seupr/********@orcl schemas=seupr directory=exp_schema dumpfile=seupr.dmp logfile=impdpSEUPR_to_seu_po_req.log REMAP_SCHEMA=SEUPR:SEU_PO_REQ 
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "SEU_PO_REQ"."SYS_EXPORT_FULL_01"           46.49 MB   21968 rows
+. . imported "SEU_PO_REQ"."PHOTO"                        85.21 KB       3 rows
+. . imported "SEU_PO_REQ"."PRODUCTS"                     50.50 KB       6 rows
+. . imported "SEU_PO_REQ"."BANK"                         5.937 KB       6 rows
+. . imported "SEU_PO_REQ"."BANK_ACCOUNT"                 7.117 KB       3 rows
+. . imported "SEU_PO_REQ"."BLOOD"                        5.492 KB       8 rows
+. . imported "SEU_PO_REQ"."BUDGET_LIST"                  6.265 KB       1 rows
+. . imported "SEU_PO_REQ"."COUNTRY"                      12.26 KB     268 rows
+. . imported "SEU_PO_REQ"."CURRENCY"                     11.87 KB     268 rows
+. . imported "SEU_PO_REQ"."DEPARTMENTS"                  5.875 KB       3 rows
+. . imported "SEU_PO_REQ"."DESIGNATION"                  5.531 KB       5 rows
+. . imported "SEU_PO_REQ"."GENDER"                       5.445 KB       3 rows
+. . imported "SEU_PO_REQ"."NOTIFICATION"                 19.25 KB      99 rows
+. . imported "SEU_PO_REQ"."ORDER_DISTRIBUTION"           8.343 KB       4 rows
+. . imported "SEU_PO_REQ"."ORDER_ITEMS"                  9.570 KB       3 rows
+. . imported "SEU_PO_REQ"."ORDER_LIST"                   10.06 KB       2 rows
+. . imported "SEU_PO_REQ"."ORDER_SHIPMENT_SCHEDULES"     9.187 KB       4 rows
+. . imported "SEU_PO_REQ"."PERSON"                       11.48 KB      11 rows
+. . imported "SEU_PO_REQ"."RCV_SHIPMENT_LIST"            6.273 KB       1 rows
+. . imported "SEU_PO_REQ"."REQUISITION_DISTRIBUTION"     7.953 KB       3 rows
+. . imported "SEU_PO_REQ"."REQUISITION_ITEMS"            11.66 KB       3 rows
+. . imported "SEU_PO_REQ"."REQUISITION_LIST"             7.546 KB       6 rows
+. . imported "SEU_PO_REQ"."REQ_ITEMS_ROLES"              8.445 KB       6 rows
+. . imported "SEU_PO_REQ"."ROLE"                         6.820 KB       7 rows
+. . imported "SEU_PO_REQ"."ROLE_CATEGORY"                5.476 KB       2 rows
+. . imported "SEU_PO_REQ"."ROOM"                         6.656 KB       4 rows
+. . imported "SEU_PO_REQ"."SUPPLIER_LIST"                8.773 KB       6 rows
+. . imported "SEU_PO_REQ"."SUPPLIER_SITES"               7.156 KB       2 rows
+. . imported "SEU_PO_REQ"."SUPPLIER_SITE_PROD_PRICE"     6.695 KB       4 rows
+. . imported "SEU_PO_REQ"."SUPP_PROD_PRICE"              7.179 KB       7 rows
+. . imported "SEU_PO_REQ"."UOM"                          6.843 KB      12 rows
+. . imported "SEU_PO_REQ"."UOM_CLASS"                    5.867 KB       4 rows
+. . imported "SEU_PO_REQ"."USER_INFO"                    7.906 KB      11 rows
+. . imported "SEU_PO_REQ"."USER_ROLE"                    7.578 KB      12 rows
+. . imported "SEU_PO_REQ"."BRAND"                            0 KB       0 rows
+. . imported "SEU_PO_REQ"."BUGET_ITEMS"                      0 KB       0 rows
+. . imported "SEU_PO_REQ"."BUILDING"                         0 KB       0 rows
+. . imported "SEU_PO_REQ"."CALENDER_DATE"                    0 KB       0 rows
+. . imported "SEU_PO_REQ"."EMPLOYEES"                        0 KB       0 rows
+. . imported "SEU_PO_REQ"."MARITIAL_STATUS"                  0 KB       0 rows
+. . imported "SEU_PO_REQ"."ORDER_RELEASE"                    0 KB       0 rows
+. . imported "SEU_PO_REQ"."ORGANIZATION"                     0 KB       0 rows
+. . imported "SEU_PO_REQ"."PRODUCT_CATAGORY"                 0 KB       0 rows
+. . imported "SEU_PO_REQ"."PRODUCT_CATEGORY_SET"             0 KB       0 rows
+. . imported "SEU_PO_REQ"."PROD_BRAND"                       0 KB       0 rows
+. . imported "SEU_PO_REQ"."RCV_SHIPMENT_ITEMS"               0 KB       0 rows
+. . imported "SEU_PO_REQ"."RELIGION"                         0 KB       0 rows
+. . imported "SEU_PO_REQ"."UOM_CLASS_CONVERSION"             0 KB       0 rows
+. . imported "SEU_PO_REQ"."UOM_CONVERSION"                   0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+ORA-39082: Object type TRIGGER:"SEU_PO_REQ"."REQ_ITEM_ROLES_LOAD_TR" created with compilation warnings
+ORA-39082: Object type TRIGGER:"SEU_PO_REQ"."REQ_ITEM_ROLES_LOAD_TR" created with compilation warnings
+ORA-39082: Object type TRIGGER:"SEU_PO_REQ"."USER_INFO_SEQ_TR" created with compilation warnings
+ORA-39082: Object type TRIGGER:"SEU_PO_REQ"."USER_INFO_SEQ_TR" created with compilation warnings
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SEUPR"."SYS_IMPORT_SCHEMA_01" completed with 4 error(s) at 13:31:38

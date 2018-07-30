@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31D70040-C45C-B477-5A43-0921B6538A73" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="SUPP_PROD_PRICE">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SUPP_PROD_PRICE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUPPLIER_LIST_SUPP_ID" id="55E53CEB-E4B4-9CD8-FCD7-5ABD29BAF77C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPP_PROD_PRICE</sourceObjSchema>
+<sourceObjName>SUPP_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63161774-28EA-F43E-862B-BBA3B260CAF5" referredColumn="8F068BE2-9775-D643-274B-CD75A957D8A7"/>
+</associations>
+</Column>
+<Column name="PRODUCTS_PROD_LIST_ID" id="C3DD7656-E31F-7B3F-16E9-2CDBFE0E66C7">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPP_PROD_PRICE</sourceObjSchema>
+<sourceObjName>PROD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FC04EF8-EFB3-AADC-EA35-73CE20D58B25" referredColumn="7C0EC8F0-73E6-1904-9785-9142E5F9E4B2"/>
+</associations>
+</Column>
+<Column name="PRICE" id="C2261742-A089-021F-6130-E4E934E7A813">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPP_PROD_PRICE</sourceObjSchema>
+<sourceObjName>PRICE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_QUALIFICATION" id="64FE728A-93DB-E85D-81A2-2FBA2327840C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPP_PROD_PRICE</sourceObjSchema>
+<sourceObjName>PROD_QUALIFICATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="B7AFA6F6-B5CF-DDE4-15D6-489D6E54A841">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SUPP_PROD_PRICE</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="554BCB45-8B09-3069-583A-A4058FA17BC3" name="SUPP_PROD_PRICE_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55E53CEB-E4B4-9CD8-FCD7-5ABD29BAF77C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7354B7-B594-7B38-DF78-EBBAB08DC97E" name="SUPP_PROD_PRICE_PRODUCTS_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3DD7656-E31F-7B3F-16E9-2CDBFE0E66C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

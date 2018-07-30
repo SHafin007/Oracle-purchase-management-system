@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C5DD969-D077-4D3D-4831-CCB49703A4C4" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="BANK_ACCOUNT">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BANK_ACCT_ID" id="EDA67D0E-DE68-5352-99E3-04ADF85F329D">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>BANK_ACCT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK_BANK_ID" id="832D1774-443A-101D-061F-075D9D55C04D">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>BANK_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="739D4742-3990-2B12-0EB9-153B89F609B3" referredColumn="538B9368-1C34-39DA-4279-ACC5BDC61694"/>
+</associations>
+</Column>
+<Column name="ACCT_NAME" id="4B21D6E9-4010-7ABE-205E-065296D212B2">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCT_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACCT_NUMBER" id="61541D75-5423-E885-9985-3EB9A44F161A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCT_NUMBER</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CURRENCY_CURRENCY_ID" id="FABA3A69-5DB1-B175-B901-A27587471543">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>CURRENCY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2D0B2CE-EF25-0B7A-5524-9495505659BF" referredColumn="748F5092-2B4C-A85C-6512-AA6B28940C84"/>
+</associations>
+</Column>
+<Column name="ACCOUNT_TYPE_ID" id="D50737F2-7F2A-11DE-4531-E6E22FC00911">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>BANK_ACCOUNT</sourceObjSchema>
+<sourceObjName>ACCOUNT_TYPE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92CF45A5-302F-0569-F060-A4DE2B4BD659" name="BANK_ACCOUNT_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNT_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDA67D0E-DE68-5352-99E3-04ADF85F329D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E533182-9462-AF44-FE09-5E3BBA68CD24" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="BANK_ACCOUNT_BANK_ACCT_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>BANK_ACCOUNT_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDA67D0E-DE68-5352-99E3-04ADF85F329D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="766E9361-5F98-4606-191A-F0701A4C12B2" name="BANK_ACCOUNT_BANK_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="832D1774-443A-101D-061F-075D9D55C04D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63C3BF6F-3DF3-6EC9-04B7-66D95153B4BC" name="BANK_ACCOUNT_CURRENCY_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FABA3A69-5DB1-B175-B901-A27587471543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

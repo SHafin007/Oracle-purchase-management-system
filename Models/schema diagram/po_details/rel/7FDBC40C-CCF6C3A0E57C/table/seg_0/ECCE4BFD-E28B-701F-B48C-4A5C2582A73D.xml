@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECCE4BFD-E28B-701F-B48C-4A5C2582A73D" name="REQUISITION_DISTRIBUTION">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>REQUISITION_DISTRIBUTION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<commentInRDBMS>stores information about the accounting distributions associated with each requisition line. Each requisition line must have at least one accounting distribution. Each row includes the Accounting Flexfield ID and requisition line quantity. This table is one of three tables that stores requisition information. The primary key is DISTRIBUTION_ID.</commentInRDBMS>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="REQUISITION_ITEMS_REQ_ITEM_ID" id="69583E34-EB01-D134-DC27-ADD26D865CDE">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>15468FDD-C299-5C53-1373-E6231C98A923</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="740EC992-831B-999E-3ABD-088A893DC3F3" referredColumn="15468FDD-C299-5C53-1373-E6231C98A923"/>
+</associations>
+</Column>
+<Column name="PRD_REQ_LINE_QTY" id="663C65D2-E4DE-79E8-CD2E-A6E59D034725">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK_ACCOUNT_BANK_ACCT_ID" id="23870AD3-F520-8D92-8731-169F1F14C75D">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>EDA67D0E-DE68-5352-99E3-04ADF85F329D</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6E83F60-9231-5CC0-A45E-3AD6B39C5B13" referredColumn="EDA67D0E-DE68-5352-99E3-04ADF85F329D"/>
+</associations>
+</Column>
+<Column name="REQ_DIST_ID" id="F16194D1-015D-D297-178C-7AB25D2F073E">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPENDITURE_TYPE_ID" id="1CADE738-F7AA-A0D9-4F8A-01DB4F872623">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORGANIZATION_ORG_ID" id="E2B7799F-C649-40A5-F6B5-E514884AB31C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD0DD074-578E-4407-E5B2-9B59768AFBD0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDCFFA9C-346B-119C-F356-8BA89B82C2CC" referredColumn="DD0DD074-578E-4407-E5B2-9B59768AFBD0"/>
+</associations>
+</Column>
+<Column name="ORDER_DIST_ID" id="2574D198-052E-8F66-07E7-63DAFDEEC481">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQUISITION_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>ORDER_DIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-18 05:44:10 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>5842D7A5-6A48-C709-B41E-084AFF8623DE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>FE6310A8-0AAB-9DF9-5D38-8F2C8692CD77</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BAC5773-BF20-23B1-A495-2C41DC1E2FB5" referredColumn="FE6310A8-0AAB-9DF9-5D38-8F2C8692CD77"/>
+</associations>
+</Column>
+<Column name="EXPENDITURE_AMNT" id="2014CDAA-F030-C021-7146-35619E99FCD5">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>REQUISITION_DISTRIBUTION</sourceObjSchema>
+<sourceObjName>EXPENDITURE_AMNT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-04 10:45:06 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>9B3A70AA-9088-7337-88E8-A1F7FE4CB5BD</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="08E7FF89-F399-AAD8-5007-111083AA429C" name="REQUISITION_DISTRIBUTION_PK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F16194D1-015D-D297-178C-7AB25D2F073E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C54E6313-E237-316B-C2D2-A8CBEB619763" name="PO_REQ_DISTRIBUTION_PK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F16194D1-015D-D297-178C-7AB25D2F073E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3FE5EECB-CFE2-DFC3-D2BE-6CE2FD9A6557" name="REQUISITION_DISTRIBUTION_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23870AD3-F520-8D92-8731-169F1F14C75D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E725C137-C038-871E-2B4E-C511C461BB7D" name="REQUISITION_DISTRIBUTION_FK3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B7799F-C649-40A5-F6B5-E514884AB31C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BCB45304-1585-30E5-1D64-C901E74ACE30" name="REQUISITION_DISTRIBUTION_FK4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:21:27 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69583E34-EB01-D134-DC27-ADD26D865CDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="94BB83F1-37F8-0A87-745C-F7A82DB9F5E7" name="REQUISITION_DISTRIBUTION_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-18 05:44:10 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2574D198-052E-8F66-07E7-63DAFDEEC481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

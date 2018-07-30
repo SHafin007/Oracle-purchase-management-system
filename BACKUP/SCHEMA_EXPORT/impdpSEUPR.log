@@ -1,0 +1,80 @@
+;;; 
+Import: Release 11.2.0.1.0 - Production on Thu Feb 15 18:18:31 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.1.0 - Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Master table "SYSTEM"."SYS_IMPORT_SCHEMA_01" successfully loaded/unloaded
+Starting "SYSTEM"."SYS_IMPORT_SCHEMA_01":  system/********@orcl schemas=seupr directory=exp_schema dumpfile=seupr.dmp logfile=impdpSEUPR.log 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31684: Object type USER:"SEUPR" already exists
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+. . imported "SEUPR"."SYS_EXPORT_FULL_01"                46.49 MB   21968 rows
+. . imported "SEUPR"."SYS_EXPORT_SCHEMA_01"              1.413 MB    1645 rows
+. . imported "SEUPR"."PHOTO"                             85.21 KB       3 rows
+. . imported "SEUPR"."PRODUCTS"                          50.50 KB       6 rows
+. . imported "SEUPR"."BANK"                              5.992 KB       7 rows
+. . imported "SEUPR"."BANK_ACCOUNT"                      7.132 KB       3 rows
+. . imported "SEUPR"."BLOOD"                             5.484 KB       8 rows
+. . imported "SEUPR"."BUDGET_LIST"                       6.289 KB       2 rows
+. . imported "SEUPR"."COUNTRY"                           12.26 KB     268 rows
+. . imported "SEUPR"."CURRENCY"                          11.87 KB     268 rows
+. . imported "SEUPR"."DEPARTMENTS"                       5.875 KB       3 rows
+. . imported "SEUPR"."DESIGNATION"                       5.531 KB       5 rows
+. . imported "SEUPR"."GENDER"                            5.445 KB       3 rows
+. . imported "SEUPR"."NOTIFICATION"                      6.718 KB       7 rows
+. . imported "SEUPR"."ORDER_DISTRIBUTION"                8.406 KB       7 rows
+. . imported "SEUPR"."ORDER_ITEMS"                       9.664 KB       6 rows
+. . imported "SEUPR"."ORDER_LIST"                        10.14 KB       4 rows
+. . imported "SEUPR"."ORDER_SHIPMENT_SCHEDULES"          9.218 KB       6 rows
+. . imported "SEUPR"."PERSON"                            11.48 KB      11 rows
+. . imported "SEUPR"."RCV_SHIPMENT_ITEMS"                9.132 KB       2 rows
+. . imported "SEUPR"."RCV_SHIPMENT_LIST"                 6.718 KB       2 rows
+. . imported "SEUPR"."REQUISITION_DISTRIBUTION"          7.976 KB       4 rows
+. . imported "SEUPR"."REQUISITION_ITEMS"                 12.81 KB      22 rows
+. . imported "SEUPR"."REQUISITION_LIST"                  7.601 KB      10 rows
+. . imported "SEUPR"."REQ_ITEMS_ROLES"                   9.742 KB      51 rows
+. . imported "SEUPR"."ROLE"                              7.890 KB      15 rows
+. . imported "SEUPR"."ROLE_CATEGORY"                     5.476 KB       2 rows
+. . imported "SEUPR"."ROOM"                              6.656 KB       4 rows
+. . imported "SEUPR"."SUPPLIER_LIST"                     8.757 KB       5 rows
+. . imported "SEUPR"."SUPPLIER_SITES"                    7.156 KB       2 rows
+. . imported "SEUPR"."SUPPLIER_SITE_PROD_PRICE"          6.703 KB       4 rows
+. . imported "SEUPR"."SUPP_PROD_PRICE"                   7.179 KB       7 rows
+. . imported "SEUPR"."UOM"                               6.843 KB      12 rows
+. . imported "SEUPR"."UOM_CLASS"                         5.867 KB       4 rows
+. . imported "SEUPR"."USER_INFO"                         7.937 KB      11 rows
+. . imported "SEUPR"."USER_ROLE"                         7.734 KB      24 rows
+. . imported "SEUPR"."BRAND"                                 0 KB       0 rows
+. . imported "SEUPR"."BUGET_ITEMS"                           0 KB       0 rows
+. . imported "SEUPR"."BUILDING"                              0 KB       0 rows
+. . imported "SEUPR"."CALENDER_DATE"                         0 KB       0 rows
+. . imported "SEUPR"."EMPLOYEES"                             0 KB       0 rows
+. . imported "SEUPR"."MARITIAL_STATUS"                       0 KB       0 rows
+. . imported "SEUPR"."ORDER_RELEASE"                         0 KB       0 rows
+. . imported "SEUPR"."ORGANIZATION"                          0 KB       0 rows
+. . imported "SEUPR"."PRODUCT_CATAGORY"                      0 KB       0 rows
+. . imported "SEUPR"."PRODUCT_CATEGORY_SET"                  0 KB       0 rows
+. . imported "SEUPR"."PROD_BRAND"                            0 KB       0 rows
+. . imported "SEUPR"."RELIGION"                              0 KB       0 rows
+. . imported "SEUPR"."UOM_CLASS_CONVERSION"                  0 KB       0 rows
+. . imported "SEUPR"."UOM_CONVERSION"                        0 KB       0 rows
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/FUNCTION/FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/PROCEDURE
+Processing object type SCHEMA_EXPORT/FUNCTION/ALTER_FUNCTION
+Processing object type SCHEMA_EXPORT/PROCEDURE/ALTER_PROCEDURE
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."SYS_IMPORT_SCHEMA_01" completed with 1 error(s) at 18:19:01

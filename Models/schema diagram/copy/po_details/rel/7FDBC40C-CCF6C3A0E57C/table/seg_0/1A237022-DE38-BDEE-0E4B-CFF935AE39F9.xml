@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A237022-DE38-BDEE-0E4B-CFF935AE39F9" name="USER_INFO">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="3E8A3690-900A-2CA4-17BE-A224ADF58DD9">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementSequenceName>user_info_seq</autoIncrementSequenceName>
+<autoIncrementTriggerName>USER_INFO_SEQ_TR</autoIncrementTriggerName>
+</Column>
+<Column name="USER_NAME" id="B187EBD8-FE4A-6FC4-BD0A-E30F8FD55AF3">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASSWORD" id="2CBCC713-3EBF-1B86-E90F-1DB16457F1B4">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>PASSWORD</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORGANIZATION_ORG_ID" id="C600153E-A730-4213-A2ED-35BA427AB567">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>ORG_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD0DD074-578E-4407-E5B2-9B59768AFBD0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E05CFE34-B64B-792E-4407-86AB6F4B1DD1" referredColumn="DD0DD074-578E-4407-E5B2-9B59768AFBD0"/>
+</associations>
+</Column>
+<Column name="PERSON_PERSON_ID" id="67B4CD41-CDE1-8D67-7A22-FA86FB8B4F7E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>0E4A4823-BE2F-2EA5-9709-5C5BD56530A5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18706BEC-1E95-9481-7715-E45ADF59F938" referredColumn="0E4A4823-BE2F-2EA5-9709-5C5BD56530A5"/>
+</associations>
+</Column>
+<Column name="EMAIL" id="1CD636DB-43E9-F356-169E-72BB3ED04221">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>USER_INFO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6681F150-8C98-57EC-62F9-6B18C752E3BB" name="USER_INFO_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD3443C0-8DAA-EAD5-145F-870A40239E47" name="USER_INFO_UK1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO_UK1</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>ABC49118-ACCC-5AF1-3BA9-4041BF732F5B</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B4CD41-CDE1-8D67-7A22-FA86FB8B4F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="037F9866-EF59-47E2-4F27-11CB34DBD401" name="USER_INFO_UK2">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO_UK2</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>33D4186E-8DC1-EBB2-04DD-84697E2672C5</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B187EBD8-FE4A-6FC4-BD0A-E30F8FD55AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="354ADE9C-86E5-C46D-EFC6-4AE498B6FBA1" name="USER_INFO_USER_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>FND_USER_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B3B77F7-DEF4-1AFE-9203-091B8F9EC3DD" name="USER_INFO_UK1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO_UK1</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>D15E674A-EFBC-448B-1C51-41450B04EF71</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B4CD41-CDE1-8D67-7A22-FA86FB8B4F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70D8CDA1-DE8F-121E-EF43-BA3AAF16B394" name="USER_INFO_UK2">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>USER_INFO_UK2</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-10 12:59:05 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0AD93C74-C713-3190-A4F1-03892AE98093</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B187EBD8-FE4A-6FC4-BD0A-E30F8FD55AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5AF25097-9C2D-9CE1-DEF7-E9EFE719484B" name="USER_INFO_ORGANIZATION_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:31:26 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C600153E-A730-4213-A2ED-35BA427AB567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1337E3ED-1154-9208-26BB-D0F8073DADB4" name="USER_INFO_PERSON_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:31:26 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B4CD41-CDE1-8D67-7A22-FA86FB8B4F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

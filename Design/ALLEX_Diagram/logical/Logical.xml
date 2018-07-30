@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="66F1025A-FB11-EC6E-CC52-157B740B2C71" mainViewID="E29C47D0-7506-DEB0-58C1-51D5B23D00C9">
+<createdBy>SAIFUR</createdBy>
+<createdTime>2016-06-26 18:20:46 UTC</createdTime>
+<ownerDesignName>ALLEX_Diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

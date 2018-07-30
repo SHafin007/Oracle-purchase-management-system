@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D47DFA30-380C-C2EC-3081-661C1362E94F" name="NOTIFICATION">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>NOTIFICATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>05808B51-3F6A-BED8-D56E-8D96C91F5ADB</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NOTIFICATION_ID" id="4829B5A5-C099-A69C-FD15-CEF91D342471">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>NOTIFICATION_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>C70D058B-9559-65BA-34E6-0B46798B5647</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOTIFICATION_MSG" id="0F30A14A-A427-081A-44AA-71938A7D01E5">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>NOTIFICATION_MSG</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>722ABDEF-2ED8-6361-DC17-6F80A0963A50</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TO_USEER_ID" id="101B9D91-5F53-E356-9B6A-307F7E590C6C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>NOTIFICATION</sourceObjSchema>
+<sourceObjName>TO_USEER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>C7E00F9C-5067-8DFD-6BA4-A05103DC81E7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3E8A3690-900A-2CA4-17BE-A224ADF58DD9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDA0DCF5-34F2-C78C-D7A0-15D75829DF65" referredColumn="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69CA8B4A-37F5-93EE-0C15-DF53DA9F3D01" name="NOTIFICATION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>NOTIFICATION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A4BD1E9E-33FB-A7DC-61DD-28B2EE84BF31</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4829B5A5-C099-A69C-FD15-CEF91D342471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B34CFC-620C-FEAF-1D27-CAD758A33578" name="NOTIFICATION_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>NOTIFICATION_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:47:36 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A717B6FD-4193-264A-9D27-E94E1D619739</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4829B5A5-C099-A69C-FD15-CEF91D342471"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="84360CBE-2643-BFDA-BC2E-944C74669C87" name="NOTIFICATION_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2018-01-09 12:48:11 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="101B9D91-5F53-E356-9B6A-307F7E590C6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

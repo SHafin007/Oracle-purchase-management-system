@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BCAB09B6-6AA7-68E1-FF45-33F37AD58D12" name="ROOM_BUILDING_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:59:16 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>2DFFFFAF-2BB0-6AA5-899C-44F00966712C</importedID>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>52DD9E85-B2AC-67F5-63A5-4D9969AF3FCF</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>64475952-0B9F-8409-B932-AFA7E4D6D8A1</localFKIndex>
+<keyObject>022EB9DF-295C-A175-751D-245E3A057470</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

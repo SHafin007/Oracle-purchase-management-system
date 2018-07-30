@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="475D8CE7-0B3A-928D-22F0-D2B94673098D" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="ORDER_SHIPMENT_SCHEDULES">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_SHIPMENT_SCHEDULES</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORDER_SHIP_SCHEDULE_ID" id="65224206-EA36-F374-4BE8-932A9F167031">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>ORDER_SHIP_SCHEDULE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BANK_ACCOUNT_BANK_ACCT_ID" id="B8469EDC-EB9A-F9CE-973C-7352CDB60CC0">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>CHARGE_ACCT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF5A5AD4-3A12-791C-895F-4E14DF8EE5FE" referredColumn="EDA67D0E-DE68-5352-99E3-04ADF85F329D"/>
+</associations>
+</Column>
+<Column name="CHARGE_AMOUNT" id="6124D57C-4CE3-4A92-F7D3-0C32A3D02FB9">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>CHARGE_AMOUNT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QTY" id="750BA6D1-7306-34D9-C69B-C581DBD93E61">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>QTY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_ITEMS_ORDER_ITEM_ID" id="DD68A3B8-C114-EC47-6166-10F68FABB3A8">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>ORDER_ITEM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55B8669D-5730-E0BF-B362-9C970233CAFF" referredColumn="5549AC52-066D-871F-E721-26438678B1ED"/>
+</associations>
+</Column>
+<Column name="ORDER_RELEASE_ORDER_RELEASE_ID" id="0BD2755D-73FD-DA59-2C25-131BA47A64A3">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>ORDER_RELEASE_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9450720C-3EF2-141C-9926-0407524D4EA3" referredColumn="2CE0C9AB-8225-2247-DE1E-835FAAA5B8B3"/>
+</associations>
+</Column>
+<Column name="UOM_UOM_ID" id="2174D6C6-D8CE-CB51-323A-659062645E84">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>UOM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38D1022E-821C-8697-63EA-8BE6A78989D7" referredColumn="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</associations>
+</Column>
+<Column name="SHIP_TO_LOC" id="BE499BF7-9470-8FB0-0740-534B5434CD32">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>SHIP_TO_LOC</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NEED_BY_DATE" id="7C830A01-D53B-C6E6-502A-6D19CCFC0377">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>NEED_BY_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROMISED_DATE" id="DA768ED1-13D5-46A3-2BD2-4E887E7A27AB">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>ORDER_SHIPMENT_SCHEDULES</sourceObjSchema>
+<sourceObjName>PROMISED_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF73A9EA-F63A-3E4E-02E7-F3D40DA19D81" name="ORDER_SHIPMENT_SCHEDULES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_SHIPMENT_SCHEDULES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65224206-EA36-F374-4BE8-932A9F167031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5308A467-59BD-0B23-6FD9-3EF82B97204D" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="ORDER_SHIPMENT_SCHEDULES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_SHIPMENT_SCHEDULES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65224206-EA36-F374-4BE8-932A9F167031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87F1BDD6-F05B-8EDC-37E6-A980B8FF1650" name="ORDER_SHIPMENT_SCHEDULES_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8469EDC-EB9A-F9CE-973C-7352CDB60CC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B89357F2-CD7A-A374-3145-D37587B61FFF" name="ORDER_SHIPMENT_SCHEDULES_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD68A3B8-C114-EC47-6166-10F68FABB3A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CCD0D2A-00DC-76A2-6977-A8A0D886FC57" name="ORDER_SHIPMENT_SCHEDULES_FK3">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BD2755D-73FD-DA59-2C25-131BA47A64A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD9D4772-1341-FBFE-70C8-2735CDFB07F8" name="ORDER_SHIPMENT_SCHEDULES_FK4">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2174D6C6-D8CE-CB51-323A-659062645E84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

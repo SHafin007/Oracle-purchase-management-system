@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B03FB9F9-E635-C23E-02EC-B46C6FEA50AA" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_ORDER">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OO_ORDER_ID" id="38507CF1-B0F9-AEDB-2055-54B6121BD4F1">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER</sourceObjSchema>
+<sourceObjName>OO_ORDER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OO_CUST_ID" id="E39AFE6A-6114-D43F-3A0E-4E53377E25C3">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER</sourceObjSchema>
+<sourceObjName>OO_CUST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OO_ORDER_DATE" id="81811C08-239B-AD9F-762F-B672F6A615FB">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER</sourceObjSchema>
+<sourceObjName>OO_ORDER_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OO_SHIP_DATE" id="24F564BB-347F-01B0-945D-66E06E7A1A64">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER</sourceObjSchema>
+<sourceObjName>OO_SHIP_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="102BC91F-F51E-32A2-7BF3-80FC227E2B90" name="ONT_ORDER_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38507CF1-B0F9-AEDB-2055-54B6121BD4F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="621F2B96-DBF5-5B3A-5A7D-B8DCA0EFC170" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_ORDER_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38507CF1-B0F9-AEDB-2055-54B6121BD4F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

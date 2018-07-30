@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD00F4C8-98E6-401A-295A-DB25F2378AF2" name="PRODUCTS">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PRODUCTS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PROD_ID" id="7C0EC8F0-73E6-1904-9785-9142E5F9E4B2">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_LIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT_CATAGORY_PROD_CAT_ID" id="18438480-55CB-2926-6513-78C832ACB78E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_CAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>41A7524E-0F7D-7D99-9E4D-E16AA9A4A805</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92CC2116-4BE3-071E-AA5A-AAEC915DE579" referredColumn="41A7524E-0F7D-7D99-9E4D-E16AA9A4A805"/>
+</associations>
+</Column>
+<Column name="UOM_PRIMARY_UOM_ID" id="63D80B8F-4502-A287-E483-FEE16F29ED8E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>BASE_UOM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>759BAF7F-539E-69B3-529D-28B7AC763FBC</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7F59BFC-D817-063D-1949-DE455748946D" referredColumn="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</associations>
+</Column>
+<Column name="PRODUCT" id="C7789035-1AEE-3403-2C86-999DAC7C4FA3">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>AA01E45C-E01A-BC27-D5A8-F9E0DB5A2EDF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROD_DESC" id="CB245FDE-0C67-5664-FD88-788ED6DE4ECF">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>PROD_DESC</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>CBD61E36-0F07-5F20-7E6B-7CE9E2D2CBDB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORG_ID" id="67E83B50-5190-249D-3277-E55B6D7E53B0">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PRODUCTS</sourceObjSchema>
+<sourceObjName>ORG_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>DB962356-B26D-CED8-CB68-D46D09172606</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>DD0DD074-578E-4407-E5B2-9B59768AFBD0</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A8AC195-1E6A-6A27-1865-7065D42377B3" referredColumn="DD0DD074-578E-4407-E5B2-9B59768AFBD0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A39DD823-93CA-7D61-842E-740F04A6C97C" name="PRODUCTS_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ONT_PRODUCTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0EC8F0-73E6-1904-9785-9142E5F9E4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D1A3994-F8E0-C202-A21B-F462E2CE690F" name="PRODUCTS_PROD_LIST_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ONT_PRODUCTS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C0EC8F0-73E6-1904-9785-9142E5F9E4B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB7481E8-286F-3E7C-3A78-BA8C634FE465" name="PRODUCTS_PRODUCT_CATAGORY_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18438480-55CB-2926-6513-78C832ACB78E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7A60F8E-15AA-A793-8972-0A764BADEE0B" name="PRODUCTS_UOM_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:44:27 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D80B8F-4502-A287-E483-FEE16F29ED8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB132F2A-517F-4F71-9A28-392C02FFD05D" name="PRODUCTS_ORG_ID_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 20:01:00 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67E83B50-5190-249D-3277-E55B6D7E53B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

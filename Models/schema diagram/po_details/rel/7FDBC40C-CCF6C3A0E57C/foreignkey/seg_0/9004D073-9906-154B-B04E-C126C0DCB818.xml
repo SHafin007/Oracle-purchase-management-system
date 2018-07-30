@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9004D073-9906-154B-B04E-C126C0DCB818" name="PERSON_MARITIAL_STATUS_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>DBF9F776-B97C-6DA8-5BF5-8A61514AABBC</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>EDD88818-DB8B-0018-31F5-6E6EDBB822B1</localFKIndex>
+<keyObject>917A53AA-C269-2186-25BF-A6682A1CF4F0</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

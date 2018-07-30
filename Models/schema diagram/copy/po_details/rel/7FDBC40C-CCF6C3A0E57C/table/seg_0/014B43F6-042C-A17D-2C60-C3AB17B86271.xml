@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="014B43F6-042C-A17D-2C60-C3AB17B86271" name="UOM">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UOM_ID" id="759BAF7F-539E-69B3-529D-28B7AC763FBC">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM</sourceObjSchema>
+<sourceObjName>UOM_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOM" id="CB058726-D3C2-7FDD-A59C-E0E8D6CE99E9">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM</sourceObjSchema>
+<sourceObjName>UOM</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UOM_CLASS_UOM_CLASS_ID" id="B1D2AA9E-16A6-8655-CC06-D735F3B43A66">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM</sourceObjSchema>
+<sourceObjName>UOM_CLASS_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>203826AA-0741-1C31-D719-3018201042FB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="259C66EF-9C5B-5D78-6658-A07BDFB37752" referredColumn="203826AA-0741-1C31-D719-3018201042FB"/>
+</associations>
+</Column>
+<Column name="UOM_CODE" id="D0D81B0E-FC28-EE84-FDC7-BB374715810A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM</sourceObjSchema>
+<sourceObjName>UOM_CODE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>1AC196FE-47B7-06CB-2DF5-23E118884F9F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_BASE_UOM" id="B080B980-E817-7DD2-C5A1-CE54FCBDE8EE">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>UOM</sourceObjSchema>
+<sourceObjName>IS_BASE_UOM</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 13:46:55 UTC</createdTime>
+<commentInRDBMS>1 = yes -------------------------------------------------------- = no&lt;br/&gt;base uom of a class is only one. It is fixed for an organization. It&apos;s a minimum UOM of a class</commentInRDBMS>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>3D605FF4-E64B-43CA-7620-DD443D672B8C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0E7984DE-A743-9932-5243-1999A0125436" name="UOM_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EE3967B-649F-3F72-0620-2AACFE8CF8AC" name="UOM_UOM_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>UOM_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="759BAF7F-539E-69B3-529D-28B7AC763FBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46C42DFE-77FF-B12F-1E93-33A4EF47B9D0" name="UOM_UOM_CLASS_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1D2AA9E-16A6-8655-CC06-D735F3B43A66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

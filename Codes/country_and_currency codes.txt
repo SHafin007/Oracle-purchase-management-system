@@ -1,0 +1,260 @@
+--EUR
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='EUR';
+update COUNTRY set CURRENCY_ID = 14 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='EUR');
+
+select currency_id from CURRENCY where ABREVIATION ='EUR';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='EUR');
+
+update currency set CURRENCY_NAME='Australian Dollar', ABREVIATION='EUR'
+where currency_id =2;
+
+
+---Euro
+select currency_id, CURRENCY_NAME from CURRENCY where CURRENCY_name ='Euro';
+update COUNTRY set CURRENCY_ID = 2 
+where currency_id in (select currency_id from CURRENCY where CURRENCY_name ='Euro' );
+
+select currency_id from CURRENCY where CURRENCY_NAME ='Euro'
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where CURRENCY_NAME ='Euro');
+
+--usd
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='USD';
+update COUNTRY set CURRENCY_ID = 5 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='USD');
+
+select currency_id from CURRENCY where ABREVIATION ='USD';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='USD');
+
+update currency set CURRENCY_NAME='US Dollar', ABREVIATION='USD'
+where currency_id =5;
+
+
+--AUD
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='AUD';
+update COUNTRY set CURRENCY_ID = 14 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='AUD');
+
+select currency_id from CURRENCY where ABREVIATION ='AUD';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='AUD');
+
+update currency set CURRENCY_NAME='Australian Dollar', ABREVIATION='AUD'
+where currency_id =14;
+
+
+--XOF  CFA Franc BCEAO
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='XOF';
+update COUNTRY set CURRENCY_ID = 24 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='XOF');
+
+select currency_id from CURRENCY where ABREVIATION ='XOF';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='XOF');
+
+update currency set CURRENCY_NAME='CFA Franc BCEAO', ABREVIATION='XOF'
+where currency_id =24;
+
+
+--GBP  Pound Sterling
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='GBP';
+update COUNTRY set CURRENCY_ID = 99 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='GBP');
+
+select currency_id from CURRENCY where ABREVIATION ='GBP';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='GBP');
+
+update currency set CURRENCY_NAME='Pound Sterling', ABREVIATION='GBP'
+where currency_id =99;
+
+--8	East Caribbean Dollar	XCD
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='XCD';
+update COUNTRY set CURRENCY_ID = 8 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='XCD');
+
+select currency_id from CURRENCY where ABREVIATION ='XCD';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='XCD');
+
+update currency set CURRENCY_NAME='East Caribbean Dollar', ABREVIATION='XCD'
+where currency_id =8;
+
+--42	CFA Franc BEAC	XAF
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='XAF';
+update COUNTRY set CURRENCY_ID = 42 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='XAF');
+
+select currency_id from CURRENCY where ABREVIATION ='XAF';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='XAF');
+
+update currency set CURRENCY_NAME='CFA Franc BEAC', ABREVIATION='XAF'
+where currency_id =42;
+
+
+--135	Rand	ZAR
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='ZAR';
+update COUNTRY set CURRENCY_ID = 135 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='ZAR');
+
+select currency_id from CURRENCY where ABREVIATION ='ZAR';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='ZAR');
+
+update currency set CURRENCY_NAME='Rand', ABREVIATION='ZAR'
+where currency_id =135;
+
+--138	Swiss Franc	CHF
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='CHF';
+update COUNTRY set CURRENCY_ID = 138 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='CHF');
+
+select currency_id from CURRENCY where ABREVIATION ='CHF';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='CHF');
+
+update currency set CURRENCY_NAME='Swiss Franc', ABREVIATION='CHF'
+where currency_id =138;
+
+
+
+---9	No universal currency	
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where CURRENCY_NAME ='No universal currency';
+update COUNTRY set CURRENCY_ID = 9 
+where currency_id in (select currency_id from CURRENCY where CURRENCY_NAME ='No universal currency');
+
+select currency_id from CURRENCY where CURRENCY_NAME ='No universal currency';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where CURRENCY_NAME ='No universal currency');
+
+update currency set CURRENCY_NAME='No universal currency', ABREVIATION=''
+where currency_id =9;
+
+
+--26	Indian Rupee	INR
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='INR';
+update COUNTRY set CURRENCY_ID = 26 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='INR');
+
+select currency_id from CURRENCY where ABREVIATION ='INR';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='INR');
+
+update currency set CURRENCY_NAME='Indian Rupee', ABREVIATION='INR'
+where currency_id =26;
+
+
+
+---57	New Zealand Dollar	NZD
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='NZD';
+update COUNTRY set CURRENCY_ID = 57 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='NZD');
+
+select currency_id from CURRENCY where ABREVIATION ='NZD';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='NZD');
+
+update currency set CURRENCY_NAME='New Zealand Dollar', ABREVIATION='NZD'
+where currency_id =57;
+
+
+
+---33	Norwegian Krone	NOK
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='NOK';
+update COUNTRY set CURRENCY_ID = 33 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='NOK');
+
+select currency_id from CURRENCY where ABREVIATION ='NOK';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='NOK');
+
+update currency set CURRENCY_NAME='Norwegian Krone', ABREVIATION='NOK'
+where currency_id =33;
+
+
+
+---63	Netherlands Antillean Guilder	ANG
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='ANG';
+update COUNTRY set CURRENCY_ID = 63 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='ANG');
+
+select currency_id from CURRENCY where ABREVIATION ='ANG';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='ANG');
+
+update currency set CURRENCY_NAME='Netherlands Antillean Guilder', ABREVIATION='ANG'
+where currency_id =63;
+
+
+
+---66	Danish Krone	DKK
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='DKK';
+update COUNTRY set CURRENCY_ID = 66 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='DKK');
+
+select currency_id from CURRENCY where ABREVIATION ='DKK';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='DKK');
+
+update currency set CURRENCY_NAME='Danish Krone', ABREVIATION='DKK'
+where currency_id =66;
+
+
+---85	CFP Franc	XPF
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='XPF';
+update COUNTRY set CURRENCY_ID = 85 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='XPF');
+
+select currency_id from CURRENCY where ABREVIATION ='XPF';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='XPF');
+
+update currency set CURRENCY_NAME='CFP Franc', ABREVIATION='XPF'
+where currency_id =85;
+
+
+
+---163	Moroccan Dirham	MAD
+select currency_id, CURRENCY_NAME,ABREVIATION from CURRENCY where ABREVIATION ='MAD';
+update COUNTRY set CURRENCY_ID = 163 
+where currency_id in (select currency_id from CURRENCY where ABREVIATION ='MAD');
+
+select currency_id from CURRENCY where ABREVIATION ='MAD';
+update currency set CURRENCY_NAME='', ABREVIATION=''
+where currency_id in (
+select currency_id from CURRENCY where ABREVIATION ='MAD');
+
+update currency set CURRENCY_NAME='Moroccan Dirham', ABREVIATION='MAD'
+where currency_id =163;
+
+
+
+
+================================total currency in currency table===============================
+select currency_id, CURRENCY_NAME from CURRENCY;
+================================duplicate row findig in currency table=========================
+SELECT CURRENCY_NAME, count(CURRENCY_NAME) 
+FROM CURRENCY 
+GROUP BY CURRENCY_NAME
+HAVING ( COUNT(CURRENCY_NAME) > 1 );

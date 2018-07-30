@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C45CD2E3-ED0B-20CB-6FC2-CB043067F4D1" containerWithKeyObject="7963A9E4-27FD-0547-A59B-8ED78666B30F" localFKIndex="E8E5D0B9-6010-3838-EE87-78ECBE19506C" name="ORDER_LIST_BANK_ACCOUNT_FK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ORDER_LIST_FK2</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<deleteRule>SET NULL</deleteRule>
+<referredTableID>8C5DD969-D077-4D3D-4831-CCB49703A4C4</referredTableID>
+<keyObject>92CF45A5-302F-0569-F060-A4DE2B4BD659</keyObject>
+<referredKeyID>92CF45A5-302F-0569-F060-A4DE2B4BD659</referredKeyID>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

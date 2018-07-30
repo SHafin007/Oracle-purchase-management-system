@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60A8CC25-89E4-3E9F-4DE4-335E379689AF" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="PO_PUR_REQ_DTL">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>PO_PUR_REQ_DTL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PPRD_PUR_REQ_ID" id="6FBF0CF8-4447-5BD1-0222-F75CBB2294C4">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_PUR_REQ_DTL</sourceObjSchema>
+<sourceObjName>PPRD_PUR_REQ_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPRD_PROD_ID" id="FC498BDA-C1B5-4918-DF6A-569B666586A3">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_PUR_REQ_DTL</sourceObjSchema>
+<sourceObjName>PPRD_PROD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPRD_QTY" id="C5885446-7A59-813A-E55E-025340201772">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_PUR_REQ_DTL</sourceObjSchema>
+<sourceObjName>PPRD_QTY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPRD_REQUIRED_BY_DATE" id="0854654C-B2E2-B555-05F5-3F3751F62584">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_PUR_REQ_DTL</sourceObjSchema>
+<sourceObjName>PPRD_REQUIRED_BY_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PPRD_REMARKS" id="FCA96817-1263-D630-0B1F-377FA6D6B4F7">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>PO_PUR_REQ_DTL</sourceObjSchema>
+<sourceObjName>PPRD_REMARKS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="REQ_ITEMS_APPROVAL_LOAD_TR" directorySegmentName="seg_0" id="E2285D34-A92E-B9A3-9011-F862AC7F73A4">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>REQ_ITEMS_APPROVAL_LOAD_TR</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-16 07:07:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>UPDATE</actions>
+<body>DECLARE&lt;br/&gt;    VAR1 number:=0;  --COUNTING&lt;br/&gt;    VAR2 number:=0;  --SUMMING&lt;br/&gt;BEGIN&lt;br/&gt;    SELECT COUNT(REQUISITION_ITEMS.REQ_ITEM_ID), SUM(NVL(REQ_ITEMS_ROLES.IS_APPROVED, 0))  INTO VAR1, VAR2&lt;br/&gt;    FROM REQUISITION_ITEMS&lt;br/&gt;    LEFT OUTER JOIN REQ_ITEMS_ROLES&lt;br/&gt;    ON REQUISITION_ITEMS.REQ_ITEM_ID = REQ_ITEMS_ROLES.REQ_ITEM_ID&lt;br/&gt;    WHERE REQUISITION_ITEMS.REQ_ITEM_ID=:NEW.REQ_ITEM_ID;&lt;br/&gt;&lt;br/&gt;--    IF UPDATING AND VAR1=VAR2 THEN&lt;br/&gt;    IF UPDATING  THEN&lt;br/&gt;        UPDATE REQUISITION_ITEMS SET IS_APPROVED=1&lt;br/&gt;          WHERE REQUISITION_ITEMS.REQ_ITEM_ID=:NEW.REQ_ITEM_ID;&lt;br/&gt;    END IF;&lt;br/&gt;END;</body>
+<triggerTime>AFTER</triggerTime>
+<columns>DD0E8742-8609-9C35-C211-28F4DACD16A7</columns>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>0FFD65B6-05E1-FCF1-BA58-8A8A3356AE75</table>
+</TriggerOraclev10g>

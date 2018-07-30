@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="DE399A37-D2E4-EC83-70F8-696F4A3C6655" name="ROOM_FK1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>ROOM_FK1</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-03 19:19:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>DA86511C-0C55-6143-85DF-879335270828</importedID>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>52DD9E85-B2AC-67F5-63A5-4D9969AF3FCF</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>FB921D7E-3A0D-0F86-0F98-9957673204D0</localFKIndex>
+<keyObject>77154445-6263-1967-F721-760E75E479A4</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

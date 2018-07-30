@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="55B8669D-5730-E0BF-B362-9C970233CAFF" name="ORDER_SHIPMENT_SCHEDULES_FK2">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<lineWidth>2</lineWidth>
+<containerWithKeyObject>475D8CE7-0B3A-928D-22F0-D2B94673098D</containerWithKeyObject>
+<deleteRule>SET NULL</deleteRule>
+<localFKIndex>B89357F2-CD7A-A374-3145-D37587B61FFF</localFKIndex>
+<keyObject>8E6F8737-31C7-313E-7B1F-8D0C5629A188</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

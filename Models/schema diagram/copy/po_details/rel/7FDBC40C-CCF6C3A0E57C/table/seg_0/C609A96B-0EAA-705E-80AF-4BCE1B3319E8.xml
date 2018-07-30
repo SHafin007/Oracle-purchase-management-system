@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C609A96B-0EAA-705E-80AF-4BCE1B3319E8" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="MARITIAL_STATUS">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>MARITIAL_STATUS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MAR_STAT_ID" id="17FD598F-DC6A-1BAE-9F5F-C368D1FB1DB5">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>MARITIAL_STATUS</sourceObjSchema>
+<sourceObjName>MAR_STAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARRITIAL_STATUS" id="1DA8552E-F751-F9D6-9F24-DE083A6B098A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>MARITIAL_STATUS</sourceObjSchema>
+<sourceObjName>MARRITIAL_STATUS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="917A53AA-C269-2186-25BF-A6682A1CF4F0" name="MARITIAL_STATUS_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>MARITIAL_STATUS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17FD598F-DC6A-1BAE-9F5F-C368D1FB1DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F48AFC52-A9CD-70F9-7C64-3CC000BFC7CC" schemaObject="4A05F343-3CC6-1097-1210-BEAE7CAA445A" name="HR_MARITIAL_STATUS_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>HR_MARITIAL_STATUS_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17FD598F-DC6A-1BAE-9F5F-C368D1FB1DB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

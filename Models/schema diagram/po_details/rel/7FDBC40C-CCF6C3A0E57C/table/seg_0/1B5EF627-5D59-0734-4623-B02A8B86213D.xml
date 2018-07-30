@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B5EF627-5D59-0734-4623-B02A8B86213D" name="RCV_SHIPMENT_LIST">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>RCV_SHIPMENT_LIST</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<commentInRDBMS>The receipt header contains details relating to the overall purchase receipt. There can be only&lt;br/&gt;one header per receipt.&lt;br/&gt;&lt;br/&gt;RCV_SHIPMENT_HEADERS stores common information about the source of your receipts&lt;br/&gt;or expected receipts. You group your receipts by the source type and the source of the receipt.&lt;br/&gt;Oracle Purchasing does&lt;br/&gt;not allow you to group receipts from different sources under one receipt header.</commentInRDBMS>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>D6CD4CAB-632D-8978-9B7E-9C96FD4E8875</importedID>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SHIP_LIST_ID" id="DB5F7767-8303-6AC7-5CF5-3FCD40F181A4">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>RCV_SHIPMENT_LIST</sourceObjSchema>
+<sourceObjName>SHIP_LIST_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A8C0225D-5712-B54F-6A00-1FBAA42CB982</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIVER_NAME" id="140687AF-E731-D109-B7E2-8CE1987EF74E">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>RCV_SHIPMENT_LIST</sourceObjSchema>
+<sourceObjName>RECEIVER_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>18E34956-4FD3-5275-ACF8-2BE6A4603456</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEIPT_DATE" id="EFE5A615-4C06-EEE3-563F-5280E6C842D3">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>RCV_SHIPMENT_LIST</sourceObjSchema>
+<sourceObjName>RECEIPT_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<commentInRDBMS>Today’s date will default in from the system date. You can backdate a receipt if&lt;br/&gt;necessary, but the accounting period that the receipt date fall into must be open to do so.</commentInRDBMS>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0FB39C59-0ED4-1809-173C-4C6819E6C506</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMENTS" id="EF7438A8-5A0A-9BBC-7060-9DD0F96E9F61">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>RCV_SHIPMENT_LIST</sourceObjSchema>
+<sourceObjName>COMMENTS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>CF4DBC03-A157-EF5C-0B3F-869CFDCFA8B2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F89AC730-538E-2D79-5A72-3AAEC81000BB" name="SHIPMENT_LIST_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SHIPMENT_LIST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>333F198E-2977-961D-3B37-202A66A76FC4</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB5F7767-8303-6AC7-5CF5-3FCD40F181A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="60B4AB0F-A3E5-43B4-227D-F7F33DBBD05B" name="SHIPMENT_LIST_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>SHIPMENT_LIST_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2018-02-02 07:33:58 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0201DFF8-1D27-2C7E-43E4-22A46A18B759</importedID>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB5F7767-8303-6AC7-5CF5-3FCD40F181A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

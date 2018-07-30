@@ -1,0 +1,317 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DBF9F776-B97C-6DA8-5BF5-8A61514AABBC" name="PERSON">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PERSON</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSON_ID" id="0E4A4823-BE2F-2EA5-9709-5C5BD56530A5">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PERSON_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="B1C6FB80-0CEB-3CF1-6469-FDFEE0DBE919">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="D3AFA6FD-16EB-714F-102B-16AF3915C410">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITLE" id="7951D01E-0CD7-7ED2-454A-F2D887ACB816">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>TITLE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOB" id="0FDB6329-3A4E-7B82-221F-71C22A4AF21C">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>DOB</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="752BB770-DA40-5C4D-131F-7B4A9CB47768">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>FAX</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="9E3DF610-D91F-EFEF-708D-8DEA8E65A0F0">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NID" id="B2601EED-E54A-6B5A-FD69-CDC983BCB9EE">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>NID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENDER_GENDER_ID" id="C1A8C8AC-1A6C-899B-049B-5CCC72EBA14A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>GENDER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>6BCC4BDF-0D44-B513-B867-4A8CC642B750</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34DC983C-7B8E-4652-77CD-D2E42C25D9B5" referredColumn="6BCC4BDF-0D44-B513-B867-4A8CC642B750"/>
+</associations>
+</Column>
+<Column name="MARITIAL_STATUS_MAR_STAT_ID" id="7154D556-EFE2-E673-6688-C5C87372FF64">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>MARITIAL_STAT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>17FD598F-DC6A-1BAE-9F5F-C368D1FB1DB5</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9004D073-9906-154B-B04E-C126C0DCB818" referredColumn="17FD598F-DC6A-1BAE-9F5F-C368D1FB1DB5"/>
+</associations>
+</Column>
+<Column name="BLOOD_BLOOD_ID" id="407E826C-6E64-0E0F-F998-A509BA46D2B6">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>BLOOD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>C5AC6ECD-B124-7B00-DA48-4510F43750BB</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFBA0B9F-0A7B-AD20-B848-0FB50222A80D" referredColumn="C5AC6ECD-B124-7B00-DA48-4510F43750BB"/>
+</associations>
+</Column>
+<Column name="ADDRESS" id="289AA70E-F949-6C81-BAB5-423E1B0673D1">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>ADDRESS</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NATIONALITY_ID" id="22C64BE8-843D-5945-0762-1C2AEED14E03">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>NATIONALITY_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELIGION_RELIGION_ID" id="C852EBD3-3678-AAC6-7785-17A9413F0D83">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>RELIGION_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>1740190B-A66E-8D64-3907-80989F6A6F9E</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7633DC49-9176-C217-676F-3FC59A1E4489" referredColumn="1740190B-A66E-8D64-3907-80989F6A6F9E"/>
+</associations>
+</Column>
+<Column name="PHOTO_PHOTO_ID" id="74856133-10B4-31A9-6D38-EA7C83018D0A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>PERSON</sourceObjSchema>
+<sourceObjName>PHOTO_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 12:17:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>0C58689C-9D58-31CA-7402-6F155E397060</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>09B04BB0-75FB-6611-94C7-7B22EAAE1CDF</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="945C109B-3AB2-E732-F1C0-1BCFF34E4703" referredColumn="09B04BB0-75FB-6611-94C7-7B22EAAE1CDF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D14457CA-275F-DDFA-3B79-E0566D40CCB0" name="PERSON_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>HR_PERSON_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E4A4823-BE2F-2EA5-9709-5C5BD56530A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33EBE114-A8B4-436E-7C27-248CE536E2D1" name="PERSON_PERSON_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>HR_PERSON_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E4A4823-BE2F-2EA5-9709-5C5BD56530A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EB5EBD4-69CA-358C-69EE-DE3481CB95CA" name="PERSON_GENDER_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1A8C8AC-1A6C-899B-049B-5CCC72EBA14A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDD88818-DB8B-0018-31F5-6E6EDBB822B1" name="PERSON_MARITIAL_STATUS_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7154D556-EFE2-E673-6688-C5C87372FF64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25F072CA-C7C2-43A7-0D92-77CEC0A4470F" name="PERSON_BLOOD_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="407E826C-6E64-0E0F-F998-A509BA46D2B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5938AC6-3283-3011-A7F4-E235C586C6C2" name="PERSON_RELIGION_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:49 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C852EBD3-3678-AAC6-7785-17A9413F0D83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3D922FD-455A-1662-114C-F122975FF2D8" name="PERSON_PHOTO_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 12:17:55 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74856133-10B4-31A9-6D38-EA7C83018D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

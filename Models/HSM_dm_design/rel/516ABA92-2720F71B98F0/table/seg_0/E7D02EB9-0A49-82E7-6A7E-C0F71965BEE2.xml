@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7D02EB9-0A49-82E7-6A7E-C0F71965BEE2" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_ORDER_DTL">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER_DTL</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OOD_ORDER_ID" id="D1E9C5A7-1898-E2AC-E9F6-4C0698D844B0">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER_DTL</sourceObjSchema>
+<sourceObjName>OOD_ORDER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OOD_PROD_ID" id="EDB0B1EA-E975-2A0A-6EFE-C190AC4478C9">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER_DTL</sourceObjSchema>
+<sourceObjName>OOD_PROD_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OOD_QTY" id="484FC5AF-1549-78D1-D95F-C1238F8B5394">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>ONT_ORDER_DTL</sourceObjSchema>
+<sourceObjName>OOD_QTY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A3BD576-2596-3A94-DBE5-8ECF6AD2F228" name="ONT_ORDER_DTL_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER_DTL_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E9C5A7-1898-E2AC-E9F6-4C0698D844B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F8F13F8-EA32-F2C9-1E17-7D35C7F136D4" schemaObject="57E87950-27FA-50DF-9F1D-54C619FF620D" name="ONT_ORDER_DTL_PK">
+<sourceConnName>Research_Inventory</sourceConnName>
+<sourceObjSchema>RESEARCH_INV</sourceObjSchema>
+<sourceObjName>ONT_ORDER_DTL_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-07-25 19:52:25 UTC</createdTime>
+<ownerDesignName>HSM_dm_design</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1E9C5A7-1898-E2AC-E9F6-4C0698D844B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

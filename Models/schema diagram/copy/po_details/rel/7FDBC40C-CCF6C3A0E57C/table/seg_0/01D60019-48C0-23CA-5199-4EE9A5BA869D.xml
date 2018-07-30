@@ -1,0 +1,247 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01D60019-48C0-23CA-5199-4EE9A5BA869D" name="EMPLOYEES">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMP_ID" id="3B233CF1-ACF9-A9B2-C7B6-01CB5608C805">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMP_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="13DBE5F7-9967-28D7-5699-3EC62ECF5989">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARY" id="E5065CAE-B3BA-FF9F-2216-CDB7E4046DE7">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>38</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUALIFICATION" id="411841C8-F6DE-31D4-71A0-519198E20404">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>QUALIFICATION</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_INFO_USER_ID" id="E8DBD9E6-C565-2559-00C3-6741589462E0">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3E8A3690-900A-2CA4-17BE-A224ADF58DD9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4010106A-F44A-23F5-616F-7E6FD9A53D8D" referredColumn="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+</associations>
+</Column>
+<Column name="EMPLOYEES_EMP_ID" id="BE6EFBB9-B0DA-7C2C-2F72-7BF4BCE0C959">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>MANAGER_USER_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>3E8A3690-900A-2CA4-17BE-A224ADF58DD9</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCECF299-A777-E0BD-E01B-22FCB77FFCFC" referredColumn="3E8A3690-900A-2CA4-17BE-A224ADF58DD9"/>
+<colAssociation fkAssociation="13DFEC92-B3DC-2CCC-2D94-C23C606663ED" referredColumn="3B233CF1-ACF9-A9B2-C7B6-01CB5608C805"/>
+</associations>
+</Column>
+<Column name="DEPARTMENTS_DEPT_ID" id="B37C1E2B-F797-E5DD-4FBE-D51F71547565">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DEPT_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F324483F-72B0-B369-48CE-3CF8F483C2BD</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9BE34368-720B-47A4-E6C7-660E720EA738" referredColumn="F324483F-72B0-B369-48CE-3CF8F483C2BD"/>
+</associations>
+</Column>
+<Column name="ROOM_ROOM_ID" id="FC507DBC-D9BD-7A58-C0B5-F22C471B8175">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>ROOM_ASSIGN_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:26:59 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>A33A3B81-D9DE-EA5B-CDA9-0786C32C2276</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>F99A6CB8-C107-2C85-36D4-5D8FCD5959C7</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDA5CEB8-6143-6B93-4F35-CB6465D70994" referredColumn="F99A6CB8-C107-2C85-36D4-5D8FCD5959C7"/>
+</associations>
+</Column>
+<Column name="DESIGNATION_ID" id="9351AC54-06C7-30E6-21D0-D24AAA105A19">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DESIGNATION_ID</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-30 07:01:09 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<importedID>5431A845-F374-5380-AAA1-3965FED5F108</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<delegate>8BB8BA37-1FFF-FD5D-64F4-E8A70E373C56</delegate>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D2C834-6BAA-0FDC-6FBE-F7C118BC83DC" referredColumn="8BB8BA37-1FFF-FD5D-64F4-E8A70E373C56"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B524708-55A8-B389-21CA-906E3DC6AAC7" name="EMPLOYEES_PK">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>EMPLOYEES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B233CF1-ACF9-A9B2-C7B6-01CB5608C805"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38384D75-10F1-95F0-ECA5-1362860A5CCD" name="EMPLOYEES_EMP_ID_IDX">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>HR_EMPLOYEES_PK</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B233CF1-ACF9-A9B2-C7B6-01CB5608C805"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE0664BC-3EF1-5223-9EB9-F86CC8AD088A" name="EMPLOYEES_FK1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9351AC54-06C7-30E6-21D0-D24AAA105A19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB7B953F-3D31-5881-A889-14E4AC02D390" name="EMPLOYEES_USER_INFO_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8DBD9E6-C565-2559-00C3-6741589462E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12F00815-D2C6-8E56-7159-B019FE501A52" name="EMPLOYEES_USER_INFO_FKv1">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE6EFBB9-B0DA-7C2C-2F72-7BF4BCE0C959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32467FB6-E382-DD1C-AA29-AC2444179912" name="EMPLOYEES_DEPARTMENTS_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B37C1E2B-F797-E5DD-4FBE-D51F71547565"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="265B7C18-172B-2953-417A-B675A5952614" name="EMPLOYEES_EMPLOYEES_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 19:44:59 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE6EFBB9-B0DA-7C2C-2F72-7BF4BCE0C959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7754D908-14CE-CF9F-4510-EFC68DA5CEDE" name="EMPLOYEES_ROOM_FK">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-28 15:26:59 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC507DBC-D9BD-7A58-C0B5-F22C471B8175"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
